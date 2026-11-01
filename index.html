@@ -1,682 +1,226 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#7f907e">
-  <meta name="description" content="Polo Engy Make up — catalogo cosmetici e bellezza.">
-  <title>Polo Engy Make up | Catalogo in verifica · v66</title>
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
-:root{--sage:#849481;--sage-deep:#657865;--sage-pale:#dfe5d9;--sand:#e8d7c4;--cream:#fbf8f1;--ivory:#fffdf8;--blush:#e9c6bd;--champagne:#c8a67b;--ink:#292a25;--muted:#77766e;--line:#e7dfd3;--shadow:0 18px 50px #4c4a3c14}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.55}.topline{text-align:center;background:linear-gradient(90deg,#778776,#9ba38e,#778776);color:#fffdf8;font-size:11px;letter-spacing:.13em;padding:9px 12px}.site-header{min-height:88px;padding:14px clamp(18px,6vw,90px);display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fffdf8ed;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10;backdrop-filter:blur(12px)}.brand{text-decoration:none;color:var(--sage-deep);display:flex;flex-direction:column;align-items:center;line-height:1}.brand-script{font-family:'Playfair Display',serif;font-size:35px;letter-spacing:-1.5px}.leaf{color:#d9a99a;font-size:20px;margin-left:3px}.brand-sub{font-size:11px;letter-spacing:.17em;color:#4f5149;margin-top:4px}.desktop-nav{display:flex;gap:clamp(12px,2.2vw,32px)}a{color:inherit}.desktop-nav a,.footer-links a{text-decoration:none;font-size:12px;color:#55574e}.desktop-nav a:hover,.footer-links a:hover{color:var(--sage-deep)}button{font:inherit;cursor:pointer}.cart-trigger{border:1px solid #d9ded3;border-radius:999px;background:var(--ivory);padding:10px 15px;color:var(--sage-deep);font-size:12px;white-space:nowrap}.cart-trigger span{display:inline-grid;place-items:center;margin-left:5px;background:var(--sage);color:white;border-radius:50%;min-width:22px;height:22px}.hero{display:grid;grid-template-columns:1fr 1.1fr;min-height:450px;background:linear-gradient(115deg,#f6eee2 0%,#f3e6d7 42%,#e8d3c3 100%);overflow:hidden}.hero-copy{padding:clamp(36px,6vw,85px) clamp(22px,8vw,120px);align-self:center;z-index:1}.eyebrow{font-size:10px;letter-spacing:.2em;color:var(--sage-deep);font-weight:700;margin:0 0 13px}.hero h1,.section-heading h2,.contact h2,.checkout-panel h2{font-family:'Playfair Display',serif;font-weight:400;letter-spacing:-.035em;line-height:1.08}.hero h1{font-size:clamp(39px,5vw,66px);margin:0 0 20px}.hero h1 em,.contact h2 em{color:var(--sage-deep);font-weight:400}.hero-copy>p:not(.eyebrow){max-width:420px;color:#595950;font-size:14px;margin:0 0 26px}.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:0;border-radius:999px;padding:14px 21px;text-decoration:none;font-size:12px;font-weight:600;transition:transform .2s,filter .2s}.button:hover{transform:translateY(-2px);filter:brightness(.98)}.button-sage{background:linear-gradient(110deg,#7c8d7b,#9ca691);color:white;box-shadow:0 8px 18px #73846c2a}.hero-art{position:relative;min-height:360px;overflow:hidden;background:radial-gradient(ellipse at 56% 54%,#fff8e7 0%,#e9d4bd 39%,transparent 70%),linear-gradient(135deg,#e5c9b5,#f6e9d8 45%,#d5c4ae)}.hero-art:before{content:"";position:absolute;inset:auto -10% -30% -10%;height:47%;background:linear-gradient(180deg,#e8d6c1,#f8eee1);border-radius:50% 50% 0 0;box-shadow:0 -12px 24px #7e6b4a12}.sun-glow{position:absolute;width:350px;height:350px;border-radius:50%;background:#fff7e8a8;filter:blur(20px);left:20%;top:5%}.product{position:absolute;z-index:2;box-shadow:12px 18px 24px #5c49332a;border:1px solid #bda78e}.bottle{width:88px;height:185px;left:29%;bottom:15%;border-radius:10px 10px 17px 17px;background:linear-gradient(90deg,#a96e4b,#f3dfbd 28%,#d3b18c 65%,#a97b5b);display:grid;place-items:center;color:#64442f;font-family:serif;font-size:20px}.bottle:before{content:"";position:absolute;width:40px;height:38px;top:-37px;background:linear-gradient(90deg,#26251f,#555047,#191916);border-radius:5px 5px 1px 1px}.compact{width:145px;height:72px;left:51%;bottom:14%;border-radius:18px;background:linear-gradient(145deg,#c7a68b,#f5e1c6 35%,#a87c5f);display:grid;place-items:center;color:#664832;font-family:serif;font-size:19px}.compact:before{content:"";position:absolute;inset:5px;border-radius:14px;border:1px solid #fff6d8}.lipstick{width:42px;height:118px;left:47%;bottom:15%;border-radius:8px 8px 4px 4px;background:linear-gradient(90deg,#8b5243,#d8a08a,#995e4e)}.lipstick:before{content:"";position:absolute;top:-37px;left:8px;width:26px;height:42px;border-radius:14px 14px 5px 5px;background:linear-gradient(90deg,#a74c4d,#e2a09a,#b4575a)}.brush{position:absolute;z-index:1;width:12px;height:220px;bottom:17%;border-radius:8px;background:linear-gradient(90deg,#a9a59b,#f4e5c9,#817b70);transform:rotate(15deg);box-shadow:4px 7px 9px #52463122}.brush:before{content:"";position:absolute;top:-44px;left:-8px;width:28px;height:55px;border-radius:65% 65% 30% 30%;background:linear-gradient(90deg,#342b27,#8b7665,#2c2724)}.brush-one{left:71%}.brush-two{left:81%;height:195px;transform:rotate(-9deg)}.petal{position:absolute;z-index:3;width:54px;height:25px;background:linear-gradient(90deg,#d89f95,#f4d1c4);border-radius:100% 0 100% 0;bottom:15%;left:18%;transform:rotate(25deg)}.petal-two{left:22%;bottom:19%;transform:rotate(75deg);background:linear-gradient(90deg,#c9827d,#edb7ad)}.art-caption{position:absolute;bottom:5%;right:7%;z-index:4;font-family:'Playfair Display',serif;font-style:italic;color:#746b5a;font-size:13px}.section-pad{padding:66px clamp(20px,7vw,100px)}.section-heading{text-align:center;max-width:680px;margin:0 auto 30px}.section-heading h2,.contact h2{font-size:clamp(30px,3.5vw,44px);margin:0 0 12px}.section-heading>p:last-child{font-size:13px;color:var(--muted);margin:0}.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.category-card{position:relative;min-height:205px;padding:23px;text-decoration:none;border:1px solid #d9d0c3;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;transition:transform .2s,box-shadow .2s}.category-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.blush-card{background:radial-gradient(ellipse at 70% 25%,#f8e7df,#e7c4b8 55%,#d8b3a5)}.cream-card{background:radial-gradient(ellipse at 70% 20%,#fff9e9,#e8d8c4 60%,#d8c5ad)}.sage-card{background:radial-gradient(ellipse at 70% 15%,#e6e9dc,#bfcbb9 58%,#9eaf9d)}.sand-card{background:radial-gradient(ellipse at 65% 20%,#fff4e4,#e7d1ba 58%,#d1b9a0)}.category-number{position:absolute;top:16px;left:18px;font-size:10px;letter-spacing:.12em;color:#4e5949}.category-name{font-family:'Playfair Display',serif;font-size:27px}.category-note{font-size:11px;color:#5e5a51}.circle-arrow{position:absolute;right:17px;bottom:18px;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:#fff9efb8;color:#6d7c68}.products-section{background:linear-gradient(135deg,#f3ece0,#fbf8f1 55%,#eee2d5)}.align-left{text-align:left;margin-left:0}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.product-card{background:#fffdf8;border:1px solid #e8dfd2;border-radius:8px;overflow:hidden;box-shadow:0 8px 24px #51452b08}.product-visual{height:170px;display:grid;place-items:center;background:linear-gradient(145deg,#f8e9df,#eee1d2 48%,#e1d9c8);position:relative}.product-visual:before{content:"";position:absolute;width:125px;height:125px;border-radius:50%;background:#fff9e8a8;filter:blur(2px)}.product-symbol{z-index:1;font-family:'Playfair Display',serif;font-size:25px;color:#7e8d7a;border:1px solid #b3bda9;border-radius:50%;width:84px;height:84px;display:grid;place-items:center;background:linear-gradient(140deg,#fffaf0,#e3d4c0);box-shadow:0 12px 22px #4d44321b}.product-info{padding:15px}.product-info h3{font-family:'Playfair Display',serif;font-weight:400;font-size:19px;margin:0 0 6px}.product-info p{font-size:11px;color:var(--muted);margin:0 0 13px}.product-info .official-description{line-height:1.55;text-align:left}.official-description strong{display:inline-block;color:#d6b66d;font-size:10px;letter-spacing:.04em;margin-bottom:4px}.price-pending{font-size:12px;color:#8a7562;font-weight:600;margin-bottom:12px}.add-button{width:100%;border:1px solid #bdc7b8;background:#f5f7f0;color:#61745f;border-radius:999px;padding:10px;font-size:11px}.add-button:hover{background:#e3e9df}.demo-label{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:#9a8065;background:#f8eee3;border-radius:999px;padding:5px 8px;display:inline-block;margin-bottom:8px}.promise-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;padding:44px clamp(20px,8vw,120px);background:linear-gradient(100deg,#dfe5d8,#f4e8db 50%,#f1dcd4);text-align:center}.promise-icon{font-size:25px;color:#788976}.promise h3{font-family:'Playfair Display',serif;font-weight:400;font-size:21px;margin:9px 0 4px}.promise p{font-size:12px;color:#68665c;margin:0 auto;max-width:250px}.contact{display:flex;justify-content:space-between;align-items:center;gap:40px;background:var(--ivory)}.contact>p{max-width:360px;font-size:13px;color:var(--muted)}footer{text-align:center;padding:35px 20px 20px;background:linear-gradient(110deg,#718270,#929d89,#758574);color:#fffdf7}.footer-brand{font-family:'Playfair Display',serif;font-size:27px}.footer-brand span{display:block;font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:.16em}.footer-links{display:flex;justify-content:center;gap:22px;margin:18px 0}.footer-links a{color:#fffdf7}.credit{border-top:1px solid #ffffff42;padding-top:17px;margin:20px 0 0;font-size:11px;color:#fffdf7}.drawer-backdrop{position:fixed;inset:0;background:#28291f77;z-index:20}.cart-drawer{position:fixed;right:0;top:0;height:100dvh;width:min(430px,100%);background:var(--ivory);z-index:21;transform:translateX(105%);transition:transform .25s;display:flex;flex-direction:column;padding:25px;box-shadow:-15px 0 45px #29291c22}.cart-drawer.open{transform:translateX(0)}.drawer-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:15px}.drawer-head h2{font-family:'Playfair Display',serif;font-weight:400;font-size:32px;margin:0}.icon-button{border:0;background:#f1ece2;border-radius:50%;width:38px;height:38px;font-size:25px;color:#596554}.cart-items{flex:1;overflow:auto;padding:15px 0}.empty-cart{font-family:'Playfair Display',serif;font-size:20px;color:#53594e}.empty-cart span{font-family:'DM Sans',sans-serif;font-size:12px;color:var(--muted)}.cart-line{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:14px 0;border-bottom:1px solid var(--line)}.cart-product-thumb{width:64px;height:64px;object-fit:cover;border:1px solid #c6a15b;border-radius:7px;background:#fff}.cart-line h3{margin:0;font-family:'Playfair Display',serif;font-size:17px;font-weight:400}.cart-line p{font-size:11px;color:var(--muted);margin:4px 0}.cart-actions{display:flex;align-items:center;gap:9px;margin-top:8px}.qty-btn{width:25px;height:25px;border:1px solid var(--line);background:white;border-radius:50%}.remove-btn{border:0;background:none;color:#9b7669;font-size:11px;text-decoration:underline}.cart-bottom{border-top:1px solid var(--line);padding-top:17px}.total-row{display:flex;justify-content:space-between;font-size:14px}.fine-print{font-size:10px;color:var(--muted);line-height:1.5}.full-width{width:100%}.checkout-modal{display:none;position:fixed;inset:0;background:#29291f80;z-index:30;align-items:center;justify-content:center;padding:16px}.checkout-modal.open{display:flex}.checkout-panel{position:relative;width:min(540px,100%);max-height:92dvh;overflow:auto;background:var(--ivory);border-radius:14px;padding:clamp(22px,5vw,40px);box-shadow:var(--shadow)}.modal-close{position:absolute;right:18px;top:18px}.checkout-panel h2{font-size:34px;margin:0 0 12px}.checkout-intro{font-size:12px;color:var(--muted);margin-bottom:22px}.checkout-panel form{display:grid;gap:14px}.delivery-choice{border:1px solid #8c713d;border-radius:10px;padding:12px;min-width:0;margin:0}.delivery-choice legend{padding:0 6px;font-size:13px;font-weight:700;color:#e5d6b7}.delivery-choice legend span{color:#e5c579}.delivery-option{display:flex!important;align-items:center;gap:11px;padding:12px;border:1px solid #594522;border-radius:8px;background:#1b1b1b;cursor:pointer;margin:7px 0}.delivery-option:has(input:checked){border-color:#e5c579;background:#2a2114;box-shadow:inset 0 0 0 1px #e5c579}.delivery-option input{width:20px!important;height:20px;margin:0;accent-color:#c6a15b;flex:0 0 auto}.delivery-option span{display:grid;gap:2px}.delivery-option strong{font-size:13px;color:#f3ead9}.delivery-option small{font-size:11px;color:#c4b9a7}.delivery-help{font-size:11px;color:#e5c579;margin:6px 2px 0}.checkout-panel label{font-size:12px;color:#55584f;display:grid;gap:7px}.checkout-panel input,.checkout-panel textarea,.checkout-panel select{width:100%;border:1px solid #ddd5c8;border-radius:8px;background:#fffefa;padding:12px;font:inherit;font-size:13px;color:var(--ink)}.checkout-order-summary{margin:0 0 18px;padding:14px;border:1px solid #c6a15b;border-radius:9px;background:#1b1b1b;color:#f3ead9}.checkout-order-summary h3{margin:0 0 9px;font:600 15px inherit;color:#e5c579}.checkout-summary-line{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-top:1px solid #594522;font-size:12px}.checkout-summary-line span:last-child{font-weight:700;white-space:nowrap}.checkout-summary-total{margin-top:8px;padding-top:9px;border-top:1px solid #c6a15b;font-size:12px;font-weight:700}.checkout-notice{background:linear-gradient(110deg,#f3e7d9,#e6eadf);border-radius:8px;padding:12px;font-size:11px;color:#66675c}.owner-whatsapp{border:1px solid #b8c8b2;background:#f1f5ed;border-radius:10px;padding:13px;display:grid;gap:8px}.owner-whatsapp p{margin:0;display:grid;gap:3px;font-size:13px;color:#4f604d}.owner-whatsapp small{font-size:11px;color:#697465}.owner-whatsapp .button{background:#fffdf8;border:1.5px solid #c6a15b;color:#17130c;box-shadow:none;text-align:center}.owner-whatsapp .button:hover{background:#f7efdF;border-color:#b18b43;color:#17130c}.form-result{font-size:12px;color:var(--sage-deep)}.order-preview{margin-top:16px;padding:16px;border:1px solid #c6a15b;border-radius:10px;background:#17130c;color:#f3ead9}.order-preview h3{margin:0 0 12px;color:#e5c579;font-family:'Playfair Display',serif;font-size:23px;font-weight:400}.order-preview p{margin:5px 0;font-size:12px}.order-preview .preview-items{margin-top:12px;border-top:1px solid #594522}.order-preview .preview-item{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid #594522;font-size:12px}.order-preview .preview-total{margin-top:12px;padding-top:10px;border-top:1px solid #c6a15b;font-weight:700;color:#e5c579}.order-preview .preview-note{margin-top:12px;color:#c4b9a7;font-size:11px}.order-preview .owner-whatsapp-link{display:flex;margin-top:14px;border:1.5px solid #c6a15b;background:#fffdf8;color:#17130c;border-radius:999px;padding:12px 14px;text-align:center;justify-content:center;text-decoration:none;font:600 11px inherit}.order-preview .preview-print{margin-top:14px;border:1px solid #c6a15b;background:#c6a15b;color:#17130c;border-radius:999px;padding:9px 14px;font:600 11px inherit}.owner-contact{display:grid;gap:10px;min-width:min(100%,360px)}.owner-contact a{display:flex;align-items:center;gap:10px;width:fit-content;max-width:100%;text-decoration:none;color:var(--sage-deep);font-size:13px;border-bottom:1px solid #c6a15b;padding:5px 0}.owner-contact a:hover{color:#9b7658}.owner-contact .whatsapp-contact{border:1px solid #c6a15b;border-radius:999px;padding:9px 15px;background:#f4eee2;color:var(--sage-deep)}.owner-contact .contact-label{font-size:10px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;margin-bottom:2px}.footer-contact{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 22px;margin:12px auto;font-size:11px}.footer-contact a{color:#fffdf7;text-decoration:none;border-bottom:1px solid #ffffff70}.footer-contact a:hover{color:#f3dfb7}body.no-scroll{overflow:hidden}
-@media(max-width:850px){.desktop-nav{gap:12px}.desktop-nav a{font-size:11px}.hero{grid-template-columns:1fr}.hero-copy{padding:45px 26px 30px}.hero-art{min-height:290px}.category-grid,.product-grid{grid-template-columns:repeat(2,1fr)}.category-card{min-height:180px}.contact{align-items:flex-start;flex-direction:column;gap:12px}.site-header{padding:12px 18px}.desktop-nav{display:none}.promise-strip{padding:35px 18px;gap:12px}.promise h3{font-size:18px}.promise p{font-size:11px}}
-@media(max-width:420px){.category-grid,.product-grid{gap:10px}.category-card{min-height:155px;padding:15px}.category-name{font-size:23px}.product-visual{height:135px}.product-info{padding:11px}.product-info h3{font-size:17px}.promise-strip{grid-template-columns:1fr}.promise{padding:8px}.brand-script{font-size:29px}.cart-trigger{padding:8px 10px}.hero-art{min-height:250px}}
+<meta charset="utf-8">
+<meta name="google-site-verification" content="jg3s-IMDmPwUISA6gB9pVgbWMdpYLcA5-UDeeMQy86E" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
 
-/* NUOVA DIREZIONE GRAFICA: NERO, ORO E ACCENTI DISTINTI PER SEZIONE */
-:root{--ink:#f5efe4;--muted:#c4b9a7;--cream:#101010;--ivory:#f3ead9;--sage:#c6a15b;--sage-deep:#d6b66d;--line:#4d4028;--shadow:0 18px 45px #0008}
-body{background:#0b0b0c;color:#f3ead9}
-.topline{background:linear-gradient(90deg,#090909,#9c7a32,#090909);color:#fff5dc;border-bottom:1px solid #d0aa55}
-.site-header{background:#101010ed;border-bottom:1px solid #c6a15b;color:#f3ead9}
-.brand{color:#d6b66d}.brand-sub{color:#f3ead9}.leaf{color:#b88aef}
-.desktop-nav a,.footer-links a{color:#f3ead9}.desktop-nav a:hover,.footer-links a:hover{color:#e4bd62}
-.cart-trigger{border:1px solid #c6a15b;background:#17130c;color:#f3d78b}.cart-trigger span{background:#c6a15b;color:#101010}
-.hero{background:linear-gradient(120deg,#101010 0%,#211a12 55%,#342019 100%);border-bottom:2px solid #c6a15b}
-.hero-copy>p:not(.eyebrow){color:#e0d5c2}.eyebrow{color:#e2bd66}
-.hero h1 em,.contact h2 em{color:#d6b66d}.button-sage{background:linear-gradient(110deg,#b38b36,#f0d58a);color:#17120a;box-shadow:0 8px 20px #c6a15b30}
-.hero-art{background:radial-gradient(ellipse at 56% 54%,#f3ead9 0%,#c6a15b 35%,transparent 70%),linear-gradient(135deg,#17120c,#38261a 45%,#090909)}
-.hero-art:before{background:linear-gradient(180deg,#7b5425,#15100b);box-shadow:0 -12px 24px #c6a15b20}
-.sun-glow{background:#f2d78b60}.product{border-color:#d6b66d;box-shadow:12px 18px 24px #0008}.bottle{color:#f7e7bc;background:linear-gradient(90deg,#17120a,#d6b66d 28%,#5a3d18 65%,#d6b66d)}
-.compact{color:#f7e7bc;background:linear-gradient(145deg,#6d4a1c,#f5d989 35%,#392510)}.lipstick{background:linear-gradient(90deg,#641525,#c6a15b,#4b0d1b)}.lipstick:before{background:linear-gradient(90deg,#651126,#d8a0a5,#7b1830)}
-.brush{background:linear-gradient(90deg,#37302a,#f3ead9,#c6a15b)}.brush:before{background:linear-gradient(90deg,#1c1514,#9b8171,#201514)}.petal{background:linear-gradient(90deg,#8b1e2d,#d9a99a)}.petal-two{background:linear-gradient(90deg,#713a8e,#d7b1e7)}.art-caption{color:#fff0c8}
-.categories{background:#11100f;border-bottom:2px solid #8b1e2d}.categories .section-heading h2{color:#f3ead9}.categories .section-heading>p:last-child{color:#c4b9a7}
-.category-grid{gap:16px}.category-card{border-radius:8px;border-width:1px;color:#fff8eb}.blush-card{background:linear-gradient(145deg,#32121b,#8b1e2d 60%,#17090d);border-color:#bd5968}.cream-card{background:linear-gradient(145deg,#f3ead9,#d6b66d 58%,#735321);border-color:#e6ca83;color:#17120a}.sage-card{background:linear-gradient(145deg,#21152b,#713a8e 58%,#2b123d);border-color:#a77bc0}.sand-card{background:linear-gradient(145deg,#151515,#39312a 58%,#17120c);border-color:#c6a15b}
-.category-number,.category-note{color:inherit}.circle-arrow{background:#0b0b0cdd;color:#d6b66d;border:1px solid currentColor}
-.products-section{background:linear-gradient(135deg,#17130e,#0b0b0c 55%,#21131a);border-top:2px solid #c6a15b;border-bottom:2px solid #713a8e}.products-section .section-heading h2{color:#f3ead9}.products-section .section-heading>p:last-child{color:#c4b9a7}
-.product-card{background:#151515;color:#f3ead9;border:1px solid #8b6c32;box-shadow:0 10px 26px #0007}.product-card:nth-child(4n+2){border-color:#8b1e2d}.product-card:nth-child(4n+3){border-color:#713a8e}.product-card:nth-child(4n+4){border-color:#f3ead9}
-.product-visual{background:linear-gradient(145deg,#22180e,#6d4d20 48%,#111)}.product-card:nth-child(4n+2) .product-visual{background:linear-gradient(145deg,#1b090d,#8b1e2d 55%,#10090a)}.product-card:nth-child(4n+3) .product-visual{background:linear-gradient(145deg,#140e19,#713a8e 55%,#100b12)}.product-card:nth-child(4n+4) .product-visual{background:linear-gradient(145deg,#f3ead9,#d6b66d 55%,#78613c)}.product-visual:before{background:#f3ead930}.product-symbol{color:#d6b66d;border-color:#d6b66d;background:linear-gradient(140deg,#19130a,#5b431e)}.product-card:nth-child(4n+4) .product-symbol{color:#17120a;background:#f3ead9}
-.product-info p{color:#c4b9a7}.price-pending{color:#e3c77d}.add-button{border-color:#c6a15b;background:#211a10;color:#f3d78b}.add-button:hover{background:#392a12}.demo-label{background:#2a2011;color:#e3c77d}
-.promise-strip{background:linear-gradient(100deg,#21150f,#352016 35%,#1a1022 70%,#100f0f);border-bottom:2px solid #9b263b}.promise-icon{color:#d6b66d}.promise h3{color:#f3ead9}.promise p{color:#c4b9a7}
-.contact{background:linear-gradient(120deg,#111,#20130f 60%,#20122a);border:2px solid #f3ead9}.contact>p{color:#d3c7b5}
-footer{background:linear-gradient(110deg,#080808,#21180c,#080808);border-top:2px solid #c6a15b;color:#f3ead9}.credit{border-top-color:#c6a15b;color:#e5d6b7}
-.cart-drawer{background:#111;color:#f3ead9;border-left:1px solid #c6a15b}.drawer-head{border-bottom-color:#594522}.drawer-head h2{color:#f3ead9}.icon-button{background:#2a2114;color:#e5c579}.empty-cart{color:#f3ead9}.empty-cart span{color:#c4b9a7}.cart-line{border-bottom-color:#594522}.cart-line p{color:#c4b9a7}.qty-btn{background:#211a10;border-color:#c6a15b;color:#f3ead9}.remove-btn{color:#d98b98}.cart-bottom{border-top-color:#594522}.fine-print{color:#c4b9a7}.checkout-modal{background:#000c}.checkout-panel{background:#111;color:#f3ead9;border:1px solid #c6a15b}.checkout-intro{color:#c4b9a7}.checkout-panel label{color:#e5d6b7}.checkout-panel input,.checkout-panel textarea{background:#1b1b1b;border-color:#8c713d;color:#f3ead9}.checkout-notice{background:linear-gradient(110deg,#2c2112,#21152b);color:#e5d6b7}.form-result{color:#e5c579}
-@media(max-width:850px){.hero{background:linear-gradient(150deg,#101010,#26180e)}.hero-art{border-top:1px solid #c6a15b}.promise-strip{background:linear-gradient(110deg,#21150f,#1a1022)}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="RestPoker Chip Store">
+<meta name="theme-color" content="#121212">
+<title>RestPoker Chip Store</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:18px;background:#121212;color:#fff;font-family:Arial,sans-serif;text-align:center}.container{max-width:1000px;margin:auto;background:#1e1e1e;border:1px solid #2d2d2d;border-radius:12px;padding:28px}.lang{display:flex;justify-content:flex-end;gap:7px}.lang button{background:#262626;color:#fff;border:1px solid #444;padding:6px 10px;border-radius:4px;font-weight:700;cursor:pointer}.lang button.active{background:#f1c40f;color:#000}.head{display:flex;justify-content:center;align-items:center;gap:12px}.chip{width:38px;height:38px;border-radius:50%;background:#e74c3c;border:4px dashed #fff;box-shadow:0 0 10px #e74c3c}.ace{width:38px;height:38px;border-radius:50%;background:#fff;color:#111;border:4px dashed #111;display:grid;place-items:center;font-size:22px;font-weight:bold}.head h1{color:#f1c40f;font-size:28px;margin:10px 0}.sub{color:#aaa;font-size:14px;line-height:1.5;margin-bottom:28px}.grid{display:grid.grid{display:flex;flex-direction:column;gap:12px;width:100%}card{background:#262626;border:1px solid #3a3a3a;border-radius:10px;padding:24px;cursor:pointer;transition:.25s}.card:hover{border-color:#f1c40f;transform:translateY(-4px)}.amount{font-size:21px;font-weight:bold}.price{color:#2ecc71;font-size:23px;font-weight:bold;margin:10px 0}.btc{color:#e67e22;font-family:monospace;font-weight:bold}.click{color:#aaa;font-size:11px;margin-top:15px;font-weight:bold}.checkout{display:none.back{background:#c0392b;color:#fff;border:0;border-radius:4px;padding:8px 16px;font-weight:bold;cursor:pointer}.pay{background:#1a1a1a;border:1px dashed #444;border-radius:8px;padding:15px;margin:15px 0}.qr{background:#fff;border-radius:6px;padding:5px;display:inline-block}.qr img{display:block;width:180px;height:180px}.wallet{background:#121212;color:#2ecc71;border:1px solid #333;border-radius:5px;padding:10px;word-break:break-all;font:700 11px monospace;margin:10px 0}.copy{background:#34495e;color:#fff;border:0;padding:8px 12px;border-radius:4px;cursor:pointer;font-size:11px;font-weight:bold}.partners{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:10px}.partners a{background:#121212;color:#fff;text-decoration:none;border:1px solid #444;padding:8px;border-radius:6px;font-size:12px;font-weight:bold}label{display:block;text-align:left;color:#aaa;font-size:12px;font-weight:bold;margin:12px 0 5px}input{width:100%;padding:13px;border-radius:6px;border:1px solid #444;background:#121212;color:#fff;text-align:center;font-size:16px;font-weight:bold}input:focus{outline:none;border-color:#f1c40f}.submit{width:100%;margin-top:12px;padding:14px;border:0;border-radius:6px;background:#2ecc71;color:#fff;font-weight:bold;cursor:pointer;font-size:15px}.submit:disabled{opacity:.6;cursor:not-allowed}.status{display:none;margin:12px 0;padding:11px;border-radius:6px;font-size:13px;font-weight:bold}.success{display:block;background:#163d29;color:#7dffb0;border:1px solid #246b43}.error{display:block;background:#401c1c;color:#ff9a9a;border:1px solid #7a3030}.note{font-size:11px;color:#777;line-height:1.5;margin-top:14px}@media(max-width:600px){body{padding:8px}.container{padding:18px 13px}.head{flex-wrap:wrap}.head h1{font-size:23px}.grid{grid-template-columns:1fr}}
 
+.stats{margin:24px 0 8px;padding:14px;background:#181818;border:1px solid #333;border-radius:8px;color:#f1c40f;font-weight:bold;font-size:15px}
+.stats small{display:block;color:#aaa;font-weight:normal;font-size:11px;margin-top:4px}
+.crypto-extra{margin-top:14px;padding:12px;background:#181818;border:1px solid #333;border-radius:8px}
+.crypto-extra-title{color:#f1c40f;font-size:12px;font-weight:bold;margin-bottom:8px}
+.crypto-links{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
+.crypto-links a{background:#121212;color:#fff;text-decoration:none;border:1px solid #444;padding:9px 6px;border-radius:6px;font-size:11px;font-weight:bold}
+.support{margin-top:22px;padding:16px;background:#181818;border:1px solid #333;border-radius:8px;text-align:left}
+.support h3{margin:0 0 8px;color:#f1c40f;text-align:center;font-size:16px}
+.support p{margin:6px 0;color:#aaa;font-size:12px;line-height:1.5}
+.faq{margin-top:10px}
+.faq details{background:#121212;border:1px solid #333;border-radius:6px;margin:6px 0;padding:8px}
+.faq summary{cursor:pointer;color:#fff;font-weight:bold;font-size:12px}
+.faq div{color:#aaa;font-size:11px;line-height:1.5;padding:7px 2px 2px}
+.footer-note{margin-top:20px;color:#666;font-size:10px;line-height:1.5}
+@media(max-width:600px){.crypto-links{grid-template-columns:1fr 1fr}}
 
-.real-cosmetics-photo{position:relative;min-height:360px;overflow:hidden;background:#17120c}
-.real-cosmetics-photo:before{display:none}
-.real-cosmetics-photo img{display:block;width:100%;height:100%;min-height:360px;position:absolute;inset:0;object-fit:cover;object-position:center 48%}
-.real-cosmetics-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#100b0870,transparent 48%),linear-gradient(0deg,#100b08a8,transparent 34%);pointer-events:none}
-.photo-caption{position:absolute;right:7%;bottom:6%;z-index:2;color:#fff4dc;font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(14px,1.5vw,18px);text-shadow:0 2px 10px #000}
-@media(max-width:850px){.real-cosmetics-photo,.real-cosmetics-photo img{min-height:290px}}
-@media(max-width:420px){.real-cosmetics-photo,.real-cosmetics-photo img{min-height:250px}}
-
-
-/* Catalogo fotografico e strumenti di navigazione */
-.hero-art.real-cosmetics-photo{background:#15120e;min-height:420px}
-.hero-art.real-cosmetics-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.88) contrast(1.04)}
-.hero-art.real-cosmetics-photo:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(0deg,#080706b8,transparent);z-index:1}
-.photo-caption{position:absolute;right:7%;bottom:7%;z-index:3;color:#f4e8ce;font-family:'Playfair Display',serif;font-style:italic;letter-spacing:.04em;font-size:15px}
-.catalog-tools{display:flex;justify-content:space-between;align-items:center;gap:18px;margin:26px 0 12px;flex-wrap:wrap}
-.catalog-search{display:flex;align-items:center;gap:10px;min-width:min(100%,280px);flex:1;max-width:360px;border:1px solid #8e713b;border-radius:999px;padding:0 16px;background:#111;color:#d6b66d}
-.catalog-search span{font-size:25px;line-height:1}
-.catalog-search input{width:100%;min-width:0;border:0;outline:0;background:transparent;color:#f3ead9;padding:13px 0;font:inherit;font-size:12px}
-.catalog-search input::placeholder{color:#b6a98f}
-.filter-row{display:flex;gap:8px;flex-wrap:wrap}
-.filter-chip{border:1px solid #79602f;background:#14120f;color:#e8dcc4;border-radius:999px;padding:9px 14px;font-size:11px;transition:background .2s,color .2s,border-color .2s}
-.filter-chip:hover,.filter-chip.active{background:#d6b66d;color:#17120a;border-color:#d6b66d}
-.catalog-count{font-size:11px;color:#c4b9a7;margin:8px 0 18px}
-.product-card{transition:transform .22s,box-shadow .22s}
-.product-card:hover{transform:translateY(-5px);box-shadow:0 18px 34px #0009}
-.product-visual{height:230px;overflow:hidden;background:#19130c}
-.product-photo{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s;position:relative;z-index:1}
-.product-card:hover .product-photo{transform:scale(1.045)}
-.product-visual:before{z-index:0}
-.product-info{display:flex;flex-direction:column;align-items:flex-start;min-height:220px}
-.product-info h3{min-height:44px}
-.product-info p{font-size:12px;line-height:1.55;min-height:38px}
-.product-info .demo-label{margin-top:2px}
-.product-info .price-pending{margin-top:auto;padding:7px 0 12px}
-.product-info .add-button{margin-top:0}
-.product-empty{grid-column:1/-1;padding:35px 20px;border:1px dashed #8b6c32;border-radius:12px;text-align:center;color:#e5d6b7}
-.category-card{isolation:isolate}
-.category-card:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#0b0908e8 0%,#0b090830 65%,#0b090810)}
-.category-name{color:#f5e8cf;text-shadow:0 2px 12px #0008}
-.category-note{color:#f0e4d1}
-.category-number{color:#f1d38b}
-.circle-arrow{background:#d6b66d;color:#17120a}
-@media(max-width:850px){.hero-art.real-cosmetics-photo{min-height:320px}.product-visual{height:190px}.catalog-tools{align-items:stretch}.catalog-search{max-width:none}.filter-row{justify-content:center}}
-@media(max-width:480px){.hero-art.real-cosmetics-photo{min-height:255px}.product-visual{height:155px}.product-info{min-height:230px}.filter-row{gap:6px}.filter-chip{padding:8px 11px}.photo-caption{font-size:12px}}
-
-
-/* Revisione richiesta: eliminati gli sfondi e i contorni viola, sostituiti con avorio */
-.sage-card{background:linear-gradient(145deg,#fffdf8,#f3ead9 58%,#e8dcc9)!important;border-color:#e8dcc9!important;color:#292a25!important}
-.products-section{background:linear-gradient(135deg,#fffdf8,#f7f0e5 55%,#f3ead9)!important;border-top:2px solid #f3ead9!important;border-bottom:2px solid #f3ead9!important}
-.product-card:nth-child(4n+3){border-color:#e8dcc9!important}
-.product-card:nth-child(4n+3) .product-visual{background:linear-gradient(145deg,#fffdf8,#f3ead9 55%,#e8dcc9)!important}
-.promise-strip{background:linear-gradient(100deg,#f3ead9,#fffdf8 50%,#f3ead9)!important;border-bottom:2px solid #f3ead9!important}
-.contact{background:linear-gradient(120deg,#fffdf8,#f3ead9 60%,#fffdf8)!important;border-color:#f3ead9!important}
-.checkout-notice{background:linear-gradient(110deg,#f3ead9,#fffdf8)!important}
-@media(max-width:850px){.promise-strip{background:linear-gradient(110deg,#f3ead9,#fffdf8)!important}}
-
-/* Correzione completa: ogni area viola interna viene resa avorio, incluse tutte le caselle e le schede prodotto. */
-:root{--ivory:#f3ead9;--line:#e5d8c3}
-.petal-two{background:linear-gradient(90deg,#f3ead9,#fffdf8)!important}
-.categories{background:#f3ead9!important;border-bottom:2px solid #f3ead9!important}
-.categories .section-heading h2,.categories .section-heading>p:last-child{color:#292a25!important}
-.category-card,.blush-card,.cream-card,.sage-card,.sand-card{background:#f3ead9!important;border:1px solid #e5d8c3!important;color:#292a25!important}
-.category-card:before{background:linear-gradient(0deg,#f3ead9a0,#f3ead980 65%,#f3ead960)!important}
-.category-name,.category-note,.category-number{color:#292a25!important;text-shadow:none!important}
-.circle-arrow{background:#fffdf8!important;color:#292a25!important;border:1px solid #e5d8c3!important}
-.products-section{background:#f3ead9!important;border-top:2px solid #f3ead9!important;border-bottom:2px solid #f3ead9!important}
-.products-section .section-heading h2,.products-section .section-heading>p:last-child{color:#292a25!important}
-.product-card,.product-card:nth-child(4n+2),.product-card:nth-child(4n+3),.product-card:nth-child(4n+4){background:#fffdf8!important;color:#292a25!important;border:1px solid #e5d8c3!important;box-shadow:0 8px 24px #4c3b2010!important}
-.product-visual,.product-card:nth-child(4n+2) .product-visual,.product-card:nth-child(4n+3) .product-visual,.product-card:nth-child(4n+4) .product-visual{background:#f3ead9!important}
-.product-visual:before{background:#fffdf8a8!important}
-.product-symbol,.product-card:nth-child(4n+4) .product-symbol{color:#292a25!important;border-color:#e5d8c3!important;background:#fffdf8!important}
-.product-info h3{color:#292a25!important}.product-info p{color:#68645c!important}
-.promise-strip{background:#f3ead9!important;border-bottom:2px solid #f3ead9!important}
-.promise h3,.promise p{color:#292a25!important}
-.contact{background:#f3ead9!important;border:2px solid #f3ead9!important}.contact h2,.contact h2 em,.contact>p{color:#292a25!important}
-.checkout-notice{background:#f3ead9!important;color:#292a25!important}
-.filter-chip{background:#fffdf8!important;border-color:#e5d8c3!important;color:#292a25!important}
-.filter-chip:hover,.filter-chip.active{background:#f3ead9!important;color:#292a25!important;border-color:#e5d8c3!important}
-.product-empty{background:#f3ead9!important;border-color:#e5d8c3!important;color:#292a25!important}
-@media(max-width:850px){.categories,.products-section,.promise-strip{background:#f3ead9!important}}
-
-/* Stili sezione prodotti occhi Extreme */
-/* Sezione prodotto ufficiale in lavorazione: tonalità separate, palette avorio */
-.extreme-section{padding:58px clamp(20px,7vw,100px);background:#f3ead9;border-top:1px solid #e5d8c3;border-bottom:1px solid #e5d8c3;color:#292a25}
-.extreme-section .section-heading h2{color:#292a25}.extreme-section .section-heading p:last-child{color:#68645c}
-.extreme-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
-.extreme-card{background:#fffdf8;border:1px solid #e5d8c3;border-radius:10px;overflow:hidden;min-width:0}
-.extreme-swatch{height:155px;display:grid;place-items:center;background:linear-gradient(145deg,#fffdf8,#eee3d1);padding:18px}
-.extreme-powder{width:92px;height:92px;border-radius:50%;border:8px solid #d7c8b1;box-shadow:0 8px 18px #4c3b2018,inset 0 0 0 1px #ffffff80}
-.extreme-card h3{font-size:15px;font-weight:600;margin:13px 14px 4px}
-.extreme-card p{font-size:11px;color:#68645c;margin:0 14px 14px;line-height:1.5}
-.extreme-card a{display:inline-block;margin:0 14px 15px;font-size:11px;color:#4e5949;text-underline-offset:3px}
-.extreme-note{font-size:12px;max-width:760px;margin:24px auto 0;text-align:center;color:#68645c}
-@media(max-width:850px){.extreme-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.extreme-swatch{height:135px}}
-@media(max-width:420px){.extreme-grid{gap:10px}.extreme-card h3{font-size:13px}.extreme-swatch{height:115px}.extreme-powder{width:74px;height:74px}}
-
-.product-open{display:block;width:100%;height:100%;padding:0;border:0;background:transparent;color:inherit;text-align:left;cursor:pointer;font:inherit}.product-open .product-info{padding:1rem}.product-open .product-visual{margin:0}.product-open .detail-link{display:inline-flex;gap:.5rem;align-items:center;margin-top:.6rem;color:var(--sage,#88764e);font-weight:700;font-size:.88rem}.no-photo{height:100%;min-height:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4rem;color:#766b5c;text-align:center;font-size:.85rem;letter-spacing:.03em}.no-photo span{font-size:.72rem;opacity:.8}.product-modal{position:fixed;inset:0;z-index:120;display:none;align-items:center;justify-content:center;padding:1rem;background:rgba(20,18,15,.72);backdrop-filter:blur(5px);overflow:auto}.product-modal.open{display:flex}.product-modal-panel{position:relative;width:min(920px,100%);max-height:92vh;overflow:auto;background:#fbf8f1;color:#29251f;border-radius:18px;padding:clamp(1rem,3vw,2rem);box-shadow:0 24px 80px #0005}.detail-close{position:absolute;right:1rem;top:1rem;z-index:2}.detail-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1rem,3vw,2.4rem);align-items:center}.detail-image-wrap{min-height:300px;background:#f0e9df;border-radius:12px;overflow:hidden;display:flex;align-items:center;justify-content:center}.detail-image-wrap img{display:block;width:100%;height:100%;max-height:520px;object-fit:contain}
-.detail-image-wrap img{cursor:zoom-in}.photo-zoom-hint{margin:8px 0 12px;text-align:center;font-size:12px;color:#665f54}.photo-zoom{position:fixed;inset:0;z-index:60;background:#171713ed;display:none;align-items:center;justify-content:center;padding:18px}.photo-zoom.open{display:flex}.photo-zoom img{max-width:100%;max-height:90dvh;object-fit:contain;border-radius:8px;touch-action:none;transform-origin:center center;will-change:transform}.photo-zoom-close{position:absolute;top:14px;right:14px;background:#fffdf8;color:#25231e;border:0;border-radius:50%;width:42px;height:42px;font-size:26px;cursor:pointer}.detail-gallery{display:flex;gap:.55rem;flex-wrap:wrap;margin-top:.65rem}.detail-thumb{width:64px;height:64px;padding:3px;border:1px solid #d4c8b8;border-radius:8px;background:#fff;cursor:pointer}.detail-thumb.active{border:2px solid #88764e}.detail-thumb img{width:100%;height:100%;object-fit:contain}.detail-image-wrap .no-photo{min-height:320px}.detail-copy h2{font-family:inherit;font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.1;margin:.4rem 2rem 1rem 0}.detail-copy>p{line-height:1.65}.variant-wrap{margin:1.2rem 0}.variant-wrap label{display:block;margin-bottom:.45rem;font-weight:700}.variant-wrap select{width:100%;padding:.85rem;border:1px solid #c8bca8;border-radius:8px;background:white;color:#29251f}.variant-note,.detail-footnote{font-size:.8rem;color:#766b5c}.detail-footnote{margin-top:1rem}.detail-copy .button{margin-top:1rem}.no-scroll{overflow:hidden}@media(max-width:640px){.detail-layout{grid-template-columns:1fr}.detail-image-wrap{min-height:230px}.detail-image-wrap img{max-height:330px}.product-modal-panel{max-height:95vh;padding:1rem}.product-modal .detail-copy h2{font-size:1.7rem}}
-
-
-/* Anteprima coerente delle varianti in ogni scheda prodotto */
-.card-variant-preview{margin:.2rem 0 .65rem;padding:.55rem .6rem;border:1px solid #e6dfd2;border-radius:9px;background:#fffdf8;text-align:left}
-.card-variant-title{display:block;margin-bottom:.42rem;color:#8a765e;font-size:.64rem;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
-.card-variant-list{display:flex;flex-wrap:wrap;gap:.32rem}
-.card-variant-chip{display:inline-flex;align-items:center;gap:.25rem;padding:.2rem .36rem;border:1px solid #e6dfd2;border-radius:999px;background:#fff;color:#51483e;font-size:.65rem;font-weight:600}
-.card-variant-chip.active{border-color:#8b9a7e;background:#eef2e9;box-shadow:0 0 0 1px #8b9a7e}
-.card-variant-dot{display:inline-block;width:13px;height:13px;border:1px solid #8f8779;border-radius:50%;box-shadow:inset 0 0 0 1px #ffffffa8;flex:0 0 13px}
-
-/* Evidenza della tonalità scelta: resta visibile anche nella scheda del catalogo */
-.selected-shade{display:flex;align-items:center;gap:.5rem;margin:.7rem 0 0;padding:.55rem .65rem;border:1px solid #aab69f;border-radius:8px;background:#f0f4eb;color:#344332;font-size:.78rem;font-weight:700;line-height:1.35}
-.selected-shade[hidden]{display:none}
-.shade-swatch{width:18px;height:18px;flex:0 0 18px;border:1px solid #8f8779;border-radius:50%;box-shadow:inset 0 0 0 2px #ffffffb5}
-.shade-copy{display:flex;flex-direction:column;min-width:0}
-.shade-copy small{font-size:.67rem;font-weight:500;color:#6b6c60}
-.product-card .selected-shade{margin:0 0 10px}
-.variant-selected-hint{font-size:.76rem;color:#4f634b;background:#edf2e8;border-left:3px solid #7c8d72;padding:.6rem .75rem;border-radius:4px;margin:.75rem 0}
-@media print{body *{visibility:hidden!important}.checkout-panel,.checkout-panel *{visibility:visible!important}.checkout-modal{position:static!important;display:block!important;background:white!important;padding:0!important}.checkout-panel{position:static!important;box-shadow:none!important;border:0!important;max-width:none!important;background:white!important;color:#111!important}.checkout-panel form,.modal-close,.checkout-intro,.checkout-order-summary,.form-result{display:none!important}.order-preview{background:white!important;color:#111!important;border:1px solid #999!important}.order-preview h3,.order-preview .preview-total{color:#111!important}.order-preview .preview-note{color:#444!important}.order-preview .preview-items,.order-preview .preview-item{border-color:#bbb!important}.preview-print{display:none!important}}
-
-.cart-shade{display:flex;align-items:center;gap:6px;margin-top:4px;font-size:10px;color:#8c7658}.cart-shade .shade-swatch{width:14px;height:14px;flex-basis:14px;margin:0}
-.detail-variant-swatches{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:.7rem}.detail-variant-swatches[hidden]{display:none}.detail-variant-swatch{display:flex;align-items:center;gap:.45rem;border:1px solid var(--line);background:#fffdf8;border-radius:999px;padding:.38rem .65rem .38rem .38rem;color:var(--ink);font:inherit;font-size:.82rem;cursor:pointer}.detail-variant-swatch .swatch-dot{width:1.25rem;height:1.25rem;border-radius:50%;border:1px solid #0002;box-shadow:inset 0 0 0 2px #fff}.detail-variant-swatch.active{border-color:var(--sage-deep);box-shadow:0 0 0 1px var(--sage-deep);background:#f2e5c8}.detail-variant-swatch .swatch-dot{flex:0 0 auto;transition:transform .16s,box-shadow .16s}.detail-variant-swatch{max-width:100%;text-align:left;white-space:normal;line-height:1.25}.detail-variant-swatch>span:last-child{min-width:0}.detail-variant-swatch.active .swatch-dot{transform:scale(1.12);outline:2px solid #c6a15b;outline-offset:2px;box-shadow:0 0 0 3px #fff,inset 0 0 0 2px #fff}.detail-variant-swatch:focus-visible{outline:2px solid #c6a15b;outline-offset:3px}
-
-/* Footer completo e responsive */
-.site-footer{padding:42px clamp(20px,6vw,80px) 22px;text-align:center;background:linear-gradient(110deg,#080808,#21180c,#080808);border-top:2px solid #c6a15b;color:#f3ead9}
-.footer-tagline{margin:7px 0 0;color:#d8cbb7;font-size:12px}
-.footer-links{flex-wrap:wrap}
-.footer-legal-links{display:flex;justify-content:center;flex-wrap:wrap;gap:10px 22px;margin:18px auto 24px}
-.footer-legal-links a,.novaweb-link{color:#e5d6b7;text-decoration:none;font-size:11px}
-.footer-legal-links a:hover,.novaweb-link:hover,.credit a:hover{color:#f0ca78;text-decoration:underline}
-.footer-business-note{max-width:760px;margin:0 auto;padding:16px 20px;border:1px solid #c6a15b66;border-radius:10px;background:#ffffff08;text-align:left}
-.footer-business-note strong{font-family:'Playfair Display',serif;font-size:18px;font-weight:400;color:#e5c579}
-.footer-business-note p{font-size:11px;line-height:1.65;color:#d8cbb7;margin:7px 0 0}
-.footer-business-note .legal-prelaunch{padding-top:9px;border-top:1px solid #c6a15b44;color:#f0d7a0}
-.footer-bottom{max-width:900px;margin:22px auto 0;padding-top:16px;border-top:1px solid #c6a15b66;display:flex;align-items:center;justify-content:center;gap:8px 22px;flex-wrap:wrap}
-.footer-bottom p{margin:0;font-size:10px;color:#d8cbb7}
-.credit{border:0;padding:0;margin:0;font-size:13px!important;font-weight:700!important;color:#ffe29a!important;letter-spacing:.025em}
-.credit a{display:inline-block;color:#ffe29a;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;font-weight:800}
-.novaweb-link{display:inline-flex;align-items:center;justify-content:center;padding:9px 17px;border:1px solid #f3d27b;border-radius:999px;background:linear-gradient(110deg,#f3d27b,#e5b94f);color:#21180c!important;font-size:12px!important;font-weight:800;letter-spacing:.035em;box-shadow:0 4px 14px #e5b94f45}
-.novaweb-link:hover{background:#ffe29a;color:#080808!important;text-decoration:none!important;transform:translateY(-1px)}
-@media(max-width:600px){.footer-legal-links{gap:12px 16px}.footer-business-note{padding:14px}.footer-bottom{flex-direction:column;gap:10px}}
-
-.category-card{isolation:isolate;min-height:270px;padding:23px;border-color:#b99a58;background:#080808;color:#f2d38b}
-.category-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .35s ease}
-.category-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.06) 15%,rgba(0,0,0,.18) 42%,rgba(0,0,0,.88) 100%)}
-.category-card:hover .category-photo{transform:scale(1.04)}
-.category-number{color:#f2d38b}.category-name{color:#f4d99a;text-shadow:0 1px 8px #000}.category-note{color:#fff1d2;text-shadow:0 1px 6px #000}.circle-arrow{background:#080808d9;color:#f2d38b;border:1px solid #c9a85e}
-@media(max-width:760px){.category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.category-card{min-height:230px}}
-
-</style>
-
-
-<style id="customer-copy-cleanup">
-.demo-label,.photo-zoom-hint{display:none!important}
-
-.product-price-under-photo{position:relative;z-index:2;text-align:center;padding:10px 8px 9px;background:#211a10;color:#e5c579;border-top:1px solid #c6a15b;border-bottom:1px solid #c6a15b;font-size:17px;font-weight:800;letter-spacing:.02em}.product-price-under-photo:empty{display:none}
-</style>
-
-<style id="polo-video-preview-style">
-.polo-video-section{padding:clamp(28px,5vw,64px) 20px;background:#f8f3ec;text-align:center}
-.polo-video-wrap{max-width:1120px;margin:0 auto}
-.polo-video-section .eyebrow{margin-bottom:10px}
-.polo-video-section h2{font-family:Georgia,serif;font-size:clamp(28px,4vw,44px);font-weight:500;color:#28231f;margin:0 0 22px}
-.polo-video-frame{overflow:hidden;border-radius:16px;background:#171411;box-shadow:0 16px 42px rgba(45,32,20,.16)}
-.polo-video-frame video{display:block;width:100%;height:auto;max-height: min(72vh,720px);object-fit:contain;background:#171411}
-.polo-video-note{font-size:12px;color:#766c62;margin:12px 0 0}
-@media(max-width:640px){.polo-video-section{padding:28px 14px}.polo-video-frame{border-radius:10px}}
+.chat-msg{margin:6px 0;padding:8px 10px;border-radius:7px;font-size:11px;line-height:1.45;max-width:90%}
+.chat-bot{background:#262626;color:#ddd;border:1px solid #3a3a3a;margin-right:auto}
+.chat-user{background:#163d29;color:#7dffb0;border:1px solid #246b43;margin-left:auto;text-align:right}
+.chat-time{display:block;color:#666;font-size:9px;margin-top:3px}
+@media(max-width:600px){#chatMessages{height:170px}}
 </style>
 </head>
 <body>
-  <div class="topline">POLO ENGY MAKE UP · BELLEZZA, COLORE E CURA DI SÉ</div>
-  <header class="site-header">
-    <a class="brand" href="#" aria-label="Polo Engy Make up home">
-      <span class="brand-script">Polo Engy<span class="leaf">✦</span></span>
-      <span class="brand-sub">MAKE UP · BEAUTY</span>
-    </a>
-    <nav class="desktop-nav" aria-label="Navigazione principale">
-      <a href="#home">Home</a><a href="#catalogo">Catalogo</a><a href="#prodotti">Occhi</a><a href="#viso">Viso</a>
-      <a href="#labbra">Labbra</a><a href="#corpo">Corpo</a><a href="#contatti">Contatti</a>
-    </nav>
-    <button class="cart-trigger" id="openCart" aria-label="Apri carrello">Carrello <span id="cartCount">0</span></button>
-  </header>
+<div class="container">
+  <div class="lang">
+    <button data-l="it">IT</button><button data-l="en">EN</button><button data-l="tr">TR</button>
+  </div>
+  <div class="head"><div class="chip"></div><div class="ace">♠</div><h1>RestPoker Chip Store</h1></div>
+  <p class="sub" id="sub"></p>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">IL TUO SPAZIO DI BELLEZZA</p>
-        <h1>La tua bellezza,<br><em>il tuo rituale.</em></h1>
-        <p>Esplora una selezione di make-up e prodotti beauty pensata per accompagnare ogni tuo momento. Una vetrina elegante, da personalizzare con gli articoli e i prezzi ufficiali del negozio.</p>
-        <a class="button button-sage" href="#catalogo">Scopri il catalogo <span>↗</span></a>
-      </div>
-      <div class="hero-art real-cosmetics-photo">
-        <img src="https://images.unsplash.com/photo-1653784097013-786a8965ea3b?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=85&amp;w=1800" alt="Fotografia reale di cosmetici, rossetti, pennelli e prodotti beauty disposti su un piano" loading="eager" fetchpriority="high">
-        <span class="photo-caption">Bellezza · Cura · Colore</span>
-      </div>
-    </section>
-
-    <section class="polo-video-section" id="video-presentazione" aria-label="Video di presentazione Polo Engy Make up">
-      <div class="polo-video-wrap">
-        <p class="eyebrow">POLO ENGY MAKE UP</p>
-        <h2>La bellezza prende vita</h2>
-        <div class="polo-video-frame">
-          <video autoplay muted playsinline loop controls preload="auto" aria-label="Video di presentazione Polo Engy Make up">
-            <source src="video-presentazione.mp4" type="video/mp4">
-            Il tuo browser non supporta la riproduzione video.
-          </video>
-        </div>
-        <p class="polo-video-note">Video di presentazione · 25 secondi</p>
-      </div>
-    </section>
-
-    <section class="categories section-pad" id="catalogo">
-      <div class="section-heading">
-        <p class="eyebrow">ESPLORA LE COLLEZIONI</p>
-        <h2>Un piccolo rituale, ogni giorno</h2>
-        <p>Catalogo organizzato per famiglie di make-up. Le fotografie presenti sono illustrative e andranno sostituite con le immagini ufficiali dei singoli articoli prima della pubblicazione.</p>
-      </div>
-      <div class="category-grid">
-        <a class="category-card blush-card" href="#prodotti" data-category-link="Labbra"><img class="category-photo" src="assets/images/immagine-01.webp" alt="Make-up labbra con gloss rosato" loading="lazy"><span class="category-number">01</span><span class="category-name">Labbra</span><span class="category-note">Rossetti · gloss · matite</span><span class="circle-arrow">↗</span></a>
-        <a class="category-card cream-card" href="#prodotti" data-category-link="Viso"><img class="category-photo" src="assets/images/immagine-02.webp" alt="Make-up viso luminoso con blush" loading="lazy"><span class="category-number">02</span><span class="category-name">Viso</span><span class="category-note">Fondotinta · correttori · blush</span><span class="circle-arrow">↗</span></a>
-        <a class="category-card sage-card" href="#prodotti" data-category-link="Occhi"><img class="category-photo" src="assets/images/immagine-03.webp" alt="Make-up occhi con ombretto e mascara" loading="lazy"><span class="category-number">03</span><span class="category-name">Occhi</span><span class="category-note">Mascara · matite · eyeliner</span><span class="circle-arrow">↗</span></a>
-        <a class="category-card sand-card" href="#prodotti" data-category-link="Palette"><img class="category-photo" src="assets/images/immagine-04.webp" alt="Palette di ombretti e pennello per il make-up" loading="lazy"><span class="category-number">04</span><span class="category-name">Palette</span><span class="category-note">Palette viso</span><span class="circle-arrow">↗</span></a>
-        <a class="category-card blush-card" href="#prodotti" data-category-link="Mani e unghie"><img class="category-photo" src="assets/images/immagine-05.webp" alt="Manicure curata con smalto rosa nude" loading="lazy"><span class="category-number">05</span><span class="category-name">Mani e unghie</span><span class="category-note">Smalti · cura delle unghie</span><span class="circle-arrow">↗</span></a>
-      </div>
-    </section>
-
-    <section class="products-section section-pad" id="prodotti">
-      <div class="section-heading align-left">
-        <p class="eyebrow">IL BEAUTY SHOP</p>
-        <h2>Il catalogo beauty</h2>
-        <p>Prima selezione di articoli e famiglie ricavata dal catalogo di riferimento. I prezzi sono volutamente omessi e verranno aggiunti solo dopo il tuo aggiornamento.</p>
-      </div>
-      <div class="catalog-tools" aria-label="Cerca e filtra il catalogo">
-        <label class="catalog-search"><span aria-hidden="true">⌕</span><input id="productSearch" type="search" placeholder="Cerca un prodotto…" aria-label="Cerca un prodotto"></label>
-        <div class="filter-row" id="productFilters" aria-label="Filtra per categoria">
-          <button class="filter-chip active" type="button" data-filter="Tutti">Tutti</button>
-          <button class="filter-chip" type="button" data-filter="Labbra">Labbra</button>
-          <button class="filter-chip" type="button" data-filter="Occhi">Occhi</button>
-          <button class="filter-chip" type="button" data-filter="Viso">Viso</button>
-          <button class="filter-chip" type="button" data-filter="Palette">Palette</button>
-          <button class="filter-chip" type="button" data-filter="Mani e unghie">Mani e unghie</button>
+  <div class="stats">
+    ✓ 18.000 ordini evasi
+    <small>Assistenza e verifica dell'ordine disponibili durante il processo di acquisto.</small>
+  </div>
+  <div class="grid" id="grid">
+    <div class="card" data-pack="RestPoker Chip (1T)" data-price="USD $27.50" data-btc="0.000321 BTC"><div class="amount">RestPoker Chip (1T)</div><div class="price">USD $27.50</div><div class="btc">0.000321 BTC</div><div class="click"></div></div>
+    <div class="card" data-pack="RestPoker Chip (2.5T)" data-price="USD $68.75" data-btc="0.000803 BTC"><div class="amount">RestPoker Chip (2.5T)</div><div class="price">USD $68.75</div><div class="btc">0.000803 BTC</div><div class="click"></div></div>
+    <div class="card" data-pack="RestPoker Chip (5T)" data-price="USD $137.50" data-btc="0.001605 BTC"><div class="amount">RestPoker Chip (5T)</div><div class="price">USD $137.50</div><div class="btc">0.001605 BTC</div><div class="click"></div></div>
+    <div class="card" data-pack="RestPoker Chip (7.5T)" data-price="USD $206.25" data-btc="0.002408 BTC"><div class="amount">RestPoker Chip (7.5T)</div><div class="price">USD $206.25</div><div class="btc">0.002408 BTC</div><div class="click"></div></div>
+  </div>
+  <section class="checkout" id="checkout">
+    <button class="back" id="back"></button>
+    <h2 id="product" style="color:#f1c40f"></h2>
+    <div id="price" class="price"></div><div id="btc" class="btc"></div>
+    <div class="pay">
+      <div class="qr"><img id="qr" alt="Bitcoin QR"></div>
+      <div style="color:#aaa;font-size:11px;font-weight:bold;text-align:left;margin-top:10px" id="walletTitle"></div>
+      <div class="wallet" id="wallet"></div>
+      <button class="copy" id="copy"></button>
+      <div style="color:#f1c40f;font-size:11px;font-weight:bold;text-align:left;margin-top:12px" id="partner"></div>
+      <div class="partners"><a href="https://www.moonpay.com/" target="_blank" rel="noopener">MoonPay</a><a href="https://www.binance.com/" target="_blank" rel="noopener">Binance</a></div>
+      <div class="crypto-extra">
+        <div class="crypto-extra-title">Altre opzioni Bitcoin / Crypto</div>
+        <div class="crypto-links">
+          <a href="https://www.paribu.com/" target="_blank" rel="noopener">🇹🇷 Paribu</a>
+          <a href="https://global.btcturk.com/" target="_blank" rel="noopener">🇹🇷 BtcTurk Global</a>
+          <a href="https://www.bybit.com/" target="_blank" rel="noopener">🇷🇺 Bybit Русский</a>
+          <a href="https://www.binance.com/" target="_blank" rel="noopener">🇨🇳 Binance 中文</a>
         </div>
       </div>
-      <p class="catalog-count" id="catalogCount" aria-live="polite"></p>
-      <div class="product-grid" id="productGrid"></div>
-    </section>
-
-    
-
-    <section class="promise-strip">
-      <div class="promise"><span class="promise-icon">✧</span><h3>Esplora con facilità</h3><p>Categorie e ricerca per trovare più rapidamente ciò che cerchi.</p></div>
-      <div class="promise"><span class="promise-icon">♡</span><h3>Una vetrina curata</h3><p>Fotografie beauty, dettagli raffinati e un'esperienza pensata anche per smartphone.</p></div>
-      <div class="promise"><span class="promise-icon">❀</span><h3>Personalizzata per te</h3><p>Catalogo, prezzi e informazioni da completare con i dati ufficiali del negozio.</p></div>
-    </section>
-    <section class="contact section-pad" id="contatti">
-      <div><p class="eyebrow">RESTIAMO IN CONTATTO</p><h2>Il tuo prossimo rituale<br><em>inizia da qui.</em></h2></div>
-      <div class="owner-contact"><span class="contact-label">Contatti della titolare</span><a href="tel:+393801388962">☎ 380 138 8962</a><a class="whatsapp-contact" href="https://wa.me/393801388962?text=Buongiorno%2C%20ti%20contatto%20dal%20sito%20Polo%20Engy%20Make%20up." target="_blank" rel="noopener noreferrer">☏ Scrivici su WhatsApp</a><a href="mailto:polorosaangela@gmail.com">✉ polorosaangela@gmail.com</a></div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-brand">Polo Engy <span>MAKE UP · BEAUTY</span></div>
-    <p class="footer-tagline">Bellezza, colore e cura dei dettagli.</p>
-    <div class="footer-contact" aria-label="Contatti della titolare"><a href="tel:+393801388962">Telefono: 380 138 8962</a><a href="https://wa.me/393801388962?text=Buongiorno%2C%20ti%20contatto%20dal%20sito%20Polo%20Engy%20Make%20up." target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="mailto:polorosaangela@gmail.com">polorosaangela@gmail.com</a></div>
-    <nav class="footer-links" aria-label="Collegamenti del piè di pagina">
-      <a href="#home">Home</a><a href="#catalogo">Catalogo</a><a href="#contatti">Contatti</a>
-    </nav>
-    <div class="footer-legal-links" aria-label="Informazioni legali">
-      <a href="#informazioni-legali" data-legal="privacy">Privacy e dati personali</a>
-      <a href="#informazioni-legali" data-legal="cookie">Cookie policy</a>
-      <a href="#informazioni-legali" data-legal="vendita">Termini e condizioni</a>
-      <a href="#informazioni-legali" data-legal="spedizioni">Spedizioni, resi e rimborsi</a>
     </div>
-    <div class="footer-business-note" id="informazioni-legali">
-      <strong>Informazioni per i clienti</strong>
-      <p>Per informazioni su prodotti, disponibilità e modalità d'acquisto, contatta direttamente Polo Engy Make up. Prezzi e condizioni commerciali saranno pubblicati quando confermati.</p>
-      <p class="legal-prelaunch">Le informative legali definitive (titolare del trattamento, dati dell'attività, condizioni di vendita e gestione dei cookie/servizi esterni) devono essere completate e verificate prima dell'apertura degli ordini online.</p>
-    </div>
-    <div class="footer-bottom">
-      <p class="copyright">© <span id="copyrightYear">2026</span> Polo Engy Make up. Tutti i diritti riservati.</p>
-      <p class="credit">Pagina realizzata da <a href="https://novaweb-studio-pubblicazione.onrender.com/" target="_blank" rel="noopener noreferrer">NovaWeb Studio</a></p>
-      <a class="novaweb-link" href="https://novaweb-studio-pubblicazione.onrender.com/" target="_blank" rel="noopener noreferrer">Visita il sito NovaWeb Studio ↗</a>
-    </div>
-  </footer>
-
-  <div class="drawer-backdrop" id="backdrop" hidden></div>
-  <aside class="cart-drawer" id="cartDrawer" aria-label="Carrello" aria-hidden="true">
-    <div class="drawer-head"><div><p class="eyebrow">IL TUO ORDINE</p><h2>Carrello</h2></div><button class="icon-button" id="closeCart" aria-label="Chiudi carrello">×</button></div>
-    <div id="cartItems" class="cart-items"><p class="empty-cart">Il carrello è ancora vuoto.<br><span>Aggiungi i prodotti che desideri e scegli le varianti disponibili.</span></p></div>
-    <div class="cart-bottom">
-      <div class="total-row"><span>Totale spesa</span><strong id="cartTotal">—</strong></div>
-      <p class="fine-print">I prezzi saranno disponibili a breve.</p>
-      <button class="button button-sage full-width" id="goCheckout">Prosegui all'ordine</button>
-    </div>
-  </aside>
-
-  <section class="checkout-modal" id="checkoutModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
-    <div class="checkout-panel">
-      <button class="icon-button modal-close" id="closeCheckout" aria-label="Chiudi">×</button>
-      <p class="eyebrow">PASSO SUCCESSIVO</p><h2 id="checkoutTitle">Prepariamo il tuo ordine</h2>
-      <p class="checkout-intro">Questa è una prova della procedura d'ordine: inserisci i recapiti e scegli ritiro a mano oppure spedizione. Non invia ordini e non raccoglie né trasmette pagamenti.</p>
-      <div class="checkout-order-summary" id="checkoutOrderSummary" aria-live="polite"></div>
-      <form id="checkoutForm">
-        <label>Nome<input name="firstName" autocomplete="given-name" required placeholder="Nome"></label>
-        <label>Cognome<input name="lastName" autocomplete="family-name" required placeholder="Cognome"></label>
-        <label>Numero di telefono<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required placeholder="Es. 333 1234567"></label>
-        <div class="owner-whatsapp"><p><strong>Hai bisogno di informazioni?</strong><small>Contatta direttamente la titolare della pagina su WhatsApp.</small></p><a class="button button-sage full-width" href="https://wa.me/393801388962?text=Buongiorno%2C%20desidero%20informazioni%20sul%20catalogo%20Polo%20Engy%20Make%20up." target="_blank" rel="noopener noreferrer">Clicca qui per informazioni su WhatsApp</a></div>
-        <fieldset class="delivery-choice" id="deliveryChoice">
-          <legend>Modalità di consegna <span>*</span></legend>
-          <label class="delivery-option"><input type="radio" name="deliveryMethod" value="Ritiro a mano" required><span><strong>Ritiro a mano</strong><small>Ritiro concordato con il negozio</small></span></label>
-          <label class="delivery-option"><input type="radio" name="deliveryMethod" value="Spedizione" required><span><strong>Spedizione</strong><small>Consegna all'indirizzo indicato</small><small class="shipping-terms">Minimo 5 pezzi · da 8 € fino a 1 kg</small></span></label>
-          <p class="delivery-help" id="deliveryHelp" aria-live="polite">Seleziona una delle due modalità per continuare.</p>
-        </fieldset>
-        <label id="shippingAddressField" hidden>Indirizzo per la spedizione
-          <textarea name="shippingAddress" id="shippingAddress" rows="3" placeholder="Via e numero civico, CAP, città"></textarea>
-        </label>
-        <label>Note sull'ordine<textarea name="notes" rows="3" placeholder="Eventuali richieste (facoltativo)"></textarea></label>
-        <div class="checkout-notice">Prova dimostrativa: l'ordine non viene ancora inviato al negozio. Se scegli spedizione, inserisci anche l'indirizzo completo. L'invio reale sarà attivato dopo la conferma dei recapiti e delle condizioni del negozio.</div>
-        <button class="button button-sage full-width" type="submit">Conferma riepilogo ordine</button>
-      </form>
-      <p class="form-result" id="formResult" role="status"></p>
-      <div class="order-preview" id="orderPreview" hidden aria-live="polite"></div>
-    </div>
+    <label id="idLabel" for="player"></label>
+    <input id="player" inputmode="text" maxlength="7" autocomplete="off">
+    <div id="status" class="status"></div>
+    <button class="submit" id="submit"></button>
+    <div class="note" id="note"></div>
   </section>
 
-  <section class="product-modal" id="productModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="detailName">
-    <div class="product-modal-panel">
-      <button class="icon-button detail-close" id="closeProduct" aria-label="Chiudi scheda prodotto">×</button>
-      <div class="detail-layout"><div><div class="detail-image-wrap" id="detailImageWrap"></div><p class="photo-zoom-hint" aria-hidden="true"></p><div class="detail-gallery" id="detailGallery" aria-label="Foto del prodotto"></div></div><div class="detail-copy"><p class="eyebrow" id="detailCategory">PRODOTTO</p><h2 id="detailName"></h2><p id="detailDescription"></p><div id="lipColorGuide" class="checkout-notice" hidden></div><div id="detailVariantsWrap" class="variant-wrap" hidden><label for="detailVariants">Scegli tonalità</label><select id="detailVariants"></select><div id="detailVariantSwatches" class="detail-variant-swatches" aria-label="Colori disponibili"></div><div id="detailSelectedShade" class="variant-selected-hint" aria-live="polite" hidden></div></div><p class="variant-note" id="variantNote">Scegli una variante quando è disponibile; la scelta viene aggiunta al carrello insieme al prodotto.</p><button class="button button-sage full-width" id="detailAdd">Aggiungi al carrello ＋</button><p class="detail-footnote">Il prezzo indicato è quello originale di listino. Seleziona la variante desiderata prima di aggiungere il prodotto al carrello.</p></div></div>
+
+  <div class="support" id="supportChat">
+    <h3>💬 Chat / Assistenza</h3>
+    <div id="chatMessages" style="height:190px;overflow-y:auto;background:#121212;border:1px solid #333;border-radius:7px;padding:10px;margin-bottom:9px;text-align:left"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:8px">
+      <button class="copy" data-q="payment" type="button">💳 Pagamento</button>
+      <button class="copy" data-q="player" type="button">🎮 Player ID</button>
+      <button class="copy" data-q="order" type="button">📦 Ordine</button>
+      <button class="copy" data-q="time" type="button">⏱ Tempi</button>
     </div>
-  </section>
+    <div style="display:flex;gap:6px">
+      <input id="chatInput" maxlength="120" autocomplete="off" placeholder="Scrivi una domanda..." style="text-align:left;font-size:13px">
+      <button class="submit" id="chatSend" type="button" style="width:auto;margin-top:0;padding:10px 15px">Invia</button>
+    </div>
+    <div class="faq">
+      <details><summary>Domande frequenti</summary>
+        <div>Puoi chiedere alla chat informazioni su pagamento, Player ID, ordine e tempi di verifica.</div>
+      </details>
+    </div>
+  </div>
+  <div class="footer-note">RestPoker Store · IT / EN / TR · Bitcoin payment information</div>
+</div>
+<script>
+const WALLET="3CuyQXub8TU9kYE2cz783ofnrQqjWwKLUt";
+const API_ENDPOINT="https://restchiprestpoker.coppianuova6.workers.dev/";
+let lang=localStorage.getItem("rp_lang")||"it", order={};
+const T={
+it:{sub:"Clicca sul pacchetto desiderato per aprire i dettagli del pagamento Bitcoin e inserire il tuo Player ID.",click:"➔ Clicca per acquistare",wallet:"INDIRIZZO PORTAFOGLIO BITCOIN (BTC):",copy:"Copia Indirizzo",copied:"Indirizzo copiato!",partner:"Acquista BTC velocemente qui:",label:"INSERISCI IL TUO RESTPOKER PLAYER ID *",ph:"Player ID",submit:"Conferma Ordine",back:"« Indietro",bad:"Inserisci un Player ID valido: massimo 7 caratteri, solo numeri e lettere.",sending:"Invio ordine...",ok:"Ordine inviato correttamente.",fail:"Impossibile inviare l'ordine. Riprova.",note:"Il pagamento viene verificato prima dell'accredito. Conserva l'ID della transazione Bitcoin."},
+en:{sub:"Click the package you want to open the Bitcoin payment details and enter your Player ID.",click:"➔ Click to buy",wallet:"BITCOIN (BTC) WALLET ADDRESS:",copy:"Copy Address",copied:"Address copied!",partner:"Buy BTC quickly here:",label:"ENTER YOUR RESTPOKER PLAYER ID *",ph:"Numeric ID",submit:"Confirm Order",back:"« Back",bad:"Enter a valid Player ID: maximum 7 letters or numbers.",sending:"Sending order...",ok:"Order sent successfully.",fail:"Could not send the order. Try again.",note:"Payment is verified before crediting. Keep your Bitcoin transaction ID."},
+tr:{sub:"İstediğiniz pakete tıklayarak Bitcoin ödeme bilgilerini açın ve Player ID'nizi girin.",click:"➔ Satın almak için tıklayın",wallet:"BITCOIN (BTC) CÜZDAN ADRESİ:",copy:"Adresi Kopyala",copied:"Adres kopyalandı!",partner:"Hızlı BTC satın alın:",label:"RESTPOKER PLAYER ID'NİZİ GİRİN *",ph:"Sayısal ID",submit:"Siparişi Onayla",back:"« Geri",bad:"Geçerli bir Player ID girin: en fazla 7 harf veya rakam.",sending:"Sipariş gönderiliyor...",ok:"Sipariş başarıyla gönderildi.",fail:"Sipariş gönderilemedi. Tekrar deneyin.",note:"Bakiye yüklenmeden önce ödeme doğrulanır. Bitcoin işlem ID'nizi saklayın."}
+};
+const $=id=>document.getElementById(id), tr=()=>T[lang];
 
-  <div class="photo-zoom" id="photoZoom" role="dialog" aria-modal="true" aria-label="Foto prodotto ingrandita"><button class="photo-zoom-close" id="closePhotoZoom" type="button" aria-label="Chiudi ingrandimento">×</button><img id="photoZoomImage" alt="Foto prodotto ingrandita"></div>
-
-  <script>
-// Prototipo di lavorazione: nessun ordine o pagamento reale viene trasmesso.
-const products = [
-  {id:"p1", category:"Labbra", name:"Tinta labbra MU Lady", detail:"Tinta labbra dal colore intenso, disponibile in diverse tonalità per completare il tuo make-up.", image:"assets/images/immagine-06.jpg", color:"blush", variants:["101", "102", "103", "104", "105", "106", "107"], gallery:[{label:"Tinta labbra MU Lady – foto con campioni colore e codici 101–107",image:"assets/images/immagine-07.jpg"},{label:"Tinta labbra MU Lady – foto delle sette tonalità",image:"assets/images/immagine-08.jpg"}],price:6.00},
-  {id:"p2", category:"Labbra", name:"Rossetto liquido Rebel Glass", detail:"Rossetto liquido per valorizzare le labbra con un colore definito e una finitura opaca.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Rebel-Glass-KH-Morgan-800x800.jpg", color:"cream", variants:["Absolute Fucsia n. 2", "Flamingo Rose n. 3", "Flamingo Orange n. 4", "Blazing Red n. 5", "Metallic Copper n. 6"],price:4.00},
-  {id:"p3", category:"Labbra", name:"Correttore labbra", detail:"Correttore labbra pensato per accompagnare la preparazione e la definizione del trucco. Per l’applicazione, segui le indicazioni riportate sulla confezione.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Correttore-labbra-800x800.jpg", color:"blush",price:6.00},
-  {id:"p4", category:"Labbra", name:"Tinta labbra Extreme Matt lunga durata", detail:"Tinta labbra dal finish opaco, ideale per completare il make-up con un colore intenso e definito.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2024/06/tinta-extreme-800x800.jpg", color:"cream", variants:["Nude naturale", "Rosa cipria", "Rosa antico", "Fucsia", "Corallo", "Rosso classico", "Bordeaux", "Marrone cioccolato"],price:6.00},
-  {id:"p5", category:"Labbra", name:"Matitone Chubby", detail:"Matitone Chubby: texture cremosa e scorrevole, si fonde delicatamente sulle labbra e consente una stesura uniforme e una copertura impeccabile. Scegli una delle quattro tonalità indicate nella foto: Tiramisu, Chocolate, Cappuccino o Redpassion. La variante scelta viene riportata nel carrello.", image:"assets/images/immagine-09.jpg", color:"blush", variants:["Tiramisu", "Chocolate", "Cappuccino", "Redpassion"], gallery:[{label:"Matitone Chubby – quattro tonalità Tiramisu, Chocolate, Cappuccino e Redpassion",image:"assets/images/immagine-10.jpg"}],price:6.00},
-  {id:"p6", category:"Labbra", name:"Lip duo Kiss Love", detail:"Lip duo Kiss Love: un prodotto labbra da aggiungere alla tua routine di make-up. Per l’utilizzo, segui le indicazioni riportate sulla confezione.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2021/03/Lip-duo-Kiss-love-800x693.jpg", color:"cream", variants:["05","13","16","17","18","29","30","31","50","51"], variantColors:{"05":"#8d2638","13":"#c66b79","16":"#a54f67","17":"#b52d42","18":"#87334d","29":"#c77b83","30":"#d76f62","31":"#b85d70","50":"#76283b","51":"#96534a"},price:6.00},
-  {id:"p7", category:"Labbra", name:"Matita labbra waterproof", detail:"Matita labbra pensata per definire il contorno e accompagnare l’applicazione del rossetto. Può essere utilizzata secondo il risultato desiderato.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2021/01/matita-labbra-waterproof-800x800.jpg", color:"blush", variants:["201","205","206"],price:5.00},
-  {id:"p8", category:"Labbra", name:"Matitone duo labbra", detail:"Matitone duo labbra con due tonalità in un unico prodotto, per creare abbinamenti diversi e personalizzare il make-up.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/12/Matitone-labbra-double-red-passion-800x800.jpg", color:"cream", variants:["Tiramisù", "Red Passion", "Mandorla", "Cappuccino"],price:5.00},
-  {id:"p9", category:"Labbra", name:"Rossetto Diamant", detail:"Rossetto dal finish brillante, pensato per dare un tocco luminoso al make-up delle labbra. Scegli la tonalità che preferisci tra quelle disponibili.", image:'https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/08/rossetto-diamond-brillantinato-copertina.jpg', color:"blush", variants:["151","152","153","154","155","156","157","158","159","160","161","162","163","164","165"], gallery:[{label:"Anteprima rossetto MU Make Up",image:'https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/08/rossetto-diamond-brillantinato-copertina.jpg'},{label:"Colori e numeri delle tonalità",image:'assets/images/immagine-11.jpg'}],price:5.00},
-  {id:"p10", category:"Labbra", name:"Rossetto Stick Look MU Make Up", detail:"Rossetto in stick per valorizzare le labbra con un tocco di colore. Per scegliere la variante, consulta la foto dei campioni e seleziona il numero corrispondente.", image:"assets/images/immagine-12.jpg", color:"cream", variants:["101","102","103","104","105","106","107","108","109","110","111","112"], gallery:[{label:"Anteprima Rossetto Stick Look MU Make Up",image:"assets/images/immagine-13.jpg"},{label:"Foto del braccio con i numeri delle tonalità per ordinare",image:"assets/images/immagine-14.jpg"}],price:5.00},
-  {id:"p11", category:"Labbra", name:"Matita labbra", detail:"Matita labbra da utilizzare per definire il contorno e accompagnare l’applicazione del rossetto. Scegli la variante disponibile che preferisci.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/matita-labbra-mu-make-up-copertina.jpg", color:"blush", gallery:[{label:"Foto Matita Labbra MU e campioni colore",image:"assets/images/immagine-15.jpg"},{label:"Foto del braccio con i numeri delle tonalità Matita Labbra",image:"assets/images/immagine-16.jpg"}], variants:["101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121"],price:4.00},
-  {id:"p12", category:"Labbra", name:"Matitone Chubby + Temperone", detail:"Matitone Chubby con la sua texture cremosa e scorrevole si fonde delicatamente sulle labbra, consentendo una stesura uniforme e una copertura impeccabile. Il prodotto è presentato insieme al temperone.", image:"assets/images/immagine-17.jpg", color:"cream", gallery:[{label:"Matitone Chubby con temperone",image:"assets/images/immagine-18.jpg"},{label:"Quattro varianti Lipchubby",image:"assets/images/immagine-19.jpg"},{label:"Temperone per Matitone Chubby",image:"assets/images/immagine-20.jpg"}], variants:["Tiramisu", "Chocolate", "Cappuccino", "Redpassion"],price:12.00},
-  {id:"p13", category:"Occhi", name:"Mascara maxi volume", detail:"Mascara per valorizzare le ciglia e completare il trucco degli occhi. Applica il prodotto con lo scovolino, seguendo la forma naturale delle ciglia.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2022/02/MASCARA-MAXI-VOLUME-800x602.jpg", color:"cream", variants:["Nero", "Blu", "Marrone"],price:7.00},
-  {id:"p14", category:"Occhi", name:"Siero contorno occhi acido ialuronico", detail:"Un trattamento d’eccellenza formulato per conservare la bellezza della zona del contorno occhi, favorendo la naturale produzione di Collagene e dispensando idratazione e nutrimento.", image:"assets/images/immagine-21.jpg", color:"cream",price:7.00},
-  {id:"p17", category:"Occhi", name:"Eyeliner Line Scratch penna", detail:"Immagine illustrativa. Disponibile in magazzino. Scegli la versione della punta: morbida Extraline, rotonda Extraline oppure rigida Extraline. La variante selezionata verrà riportata nel carrello.", image:"assets/images/immagine-22.png", imageLabel:"Immagine illustrativa", color:"cream", variants:["Punta Morbida Extraline","Punta Rotonda Extraline","Punta Rigida Extraline"],price:6.00},
-  {id:"p18", category:"Occhi", name:"Super Eyeliner ultra precision Seduction Noir", detail:"Eyeliner ultra precision per disegnare linee definite e valorizzare lo sguardo. Immagine illustrativa.", image:"assets/images/immagine-23.png", imageLabel:"Immagine illustrativa", color:"sand",price:7.00},
-  {id:"p19", category:"Occhi", name:"Mascara Volumizzante elettrostatico Seduction Noir", detail:"Mascara volumizzante waterproof per completare il trucco delle ciglia. Immagine illustrativa del prodotto e dello scovolino.", image:"assets/images/immagine-24.png", color:"sage",price:7.00},
-  {id:"p20", category:"Occhi", name:"Matitone double contorno occhi e riempimento", detail:"Matitone occhi double per definire il contorno e riempire la palpebra. Scegli la variante che preferisci tra i colori disponibili.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/12/Matitone-occhi-double-white-800x1067.jpg", color:"cream", variants:["Double white", "Double Gold", "Double Nude", "Double Black"], gallery:[{"label": "Double white", "image": "https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/12/Matitone-occhi-double-white-800x1067.jpg"}, {"label": "Double Gold", "image": "https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/12/Matitone-occhi-double-gold-1.jpg"}, {"label": "Double Nude", "image": "https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/12/Matitone-occhi-double-nude-1.jpg"}, {"label": "Double Black", "image": "https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/12/Matitone-occhi-double-black-1.jpg"}],price:2.50},
-  
-  {id:"p22", category:"Occhi", name:"Matita Stylo Occhi Waterproof nera", detail:"Matita occhi in formato stylo, pensata per definire lo sguardo. La variante disponibile è nera.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2026/03/Matita-waterproof-retraibile-800x800.jpg", color:"sage",price:5.00},
-  {id:"p23", category:"Viso", name:"Burro detergente struccante", detail:"Burro detergente struccante. Scegli la fragranza in base alla tua pelle: Menta e Erbe officinali per pelli secche; Fragola e Panna per pelli grasse; Malva e Fiori di Sambuco per pelli sensibili; Bardana e Calendula per pelli normali.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2026/01/burro-struccante-800x800.jpg", color:"cream", variants:["Verde chiaro – Menta ed Erbe officinali (pelli secche)","Rosa – Fragola e Panna (pelli grasse)","Viola/Lilla – Malva e Fiori di Sambuco (pelli sensibili)","Bianco – Bardana e Calendula (pelli normali)"], variantColors:{"Verde chiaro – Menta ed Erbe officinali (pelli secche)":"#a8c98a","Rosa – Fragola e Panna (pelli grasse)":"#e9a4b8","Viola/Lilla – Malva e Fiori di Sambuco (pelli sensibili)":"#aa8ac5","Bianco – Bardana e Calendula (pelli normali)":"#f1eee5"},price:6.00},
-  {id:"p24", category:"Viso", name:"Palette Terra", detail:"Palette terra per aggiungere un tocco di colore e definire il viso. Scegli la tonalità più adatta al tuo make-up.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Palette-terra-9-cialde-800x800.jpg", color:"sand",price:13.00},
-  {id:"p25", category:"Viso", name:"Palette fard/blush compatto", detail:"Palette fard e blush compatto per dare colore alle guance e completare il trucco del viso.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Palette-fard-blush-9-cialde-800x800.jpg", color:"blush",price:13.00},
-  {id:"p26", category:"Viso", name:"Palette cipria", detail:"Palette cipria per completare la base viso. Consulta le tonalità disponibili e scegli quella più adatta a te.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Palette-4-ciprie-800x800.jpg", color:"cream",price:8.00},
-  {id:"p27", category:"Viso", name:"Fondotinta Matt MU Lady 24 h", detail:"Fondotinta Matt MU Lady 24 h per uniformare l’aspetto dell’incarnato. Scegli la tonalità più vicina al tuo colore di pelle.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2024/12/fondotinta-mu-lady-800x800.jpg", color:"sand", variants:["103","102","101"], variantColors:{"103":"#c58d70","102":"#d9aa8b","101":"#edc9a9"},price:6.00},
-  {id:"p28", category:"Viso", name:"Fondotinta MU Lady long lasting", detail:"Fondotinta MU Lady long lasting per realizzare la base del viso. Seleziona la tonalità desiderata tra quelle disponibili.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2024/12/fondotinta-mu-long-lasting-800x800.jpg", color:"cream", variants:["201","202","203"], variantColors:{"201":"#c58d70","202":"#d9aa8b","203":"#edc9a9"},price:6.00},
-  {id:"p29", category:"Viso", name:"Correttore liquido MU Lady", detail:"Correttore liquido MU Lady da utilizzare nella routine di make-up del viso. Scegli la tonalità più adatta al tuo incarnato.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2024/11/Correttore-liquido-mu-lady-800x800.jpg", color:"blush",variants:["01","02","03"],variantColors:{"01":"#f2d4b8","02":"#e7bd9d","03":"#d8a17f"},price:6.00},
-  {id:"p30", category:"Viso", name:"Illuminante MU Lady – cristallo di luce", detail:"Illuminante MU Lady per aggiungere un punto luce e valorizzare alcune zone del viso.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2024/11/illuminante-mu-lady-2-800x800.jpg", color:"cream", variants:["001 Azzurro/Lavanda","002 Argento","003 Lilla/Viola","004 Bronzo/Champagne","005 Fucsia/Magenta","006 Oro Rosa/Beige Dorato"], variantColors:{"001 Azzurro/Lavanda":"#c9d5ee","002 Argento":"#c9cdd3","003 Lilla/Viola":"#a875c5","004 Bronzo/Champagne":"#c79a62","005 Fucsia/Magenta":"#d23c91","006 Oro Rosa/Beige Dorato":"#d9ad91"},price:6.00},
-  {id:"p31", category:"Viso", name:"Fondotinta Lasting Cover", detail:"Fondotinta Lasting Cover per uniformare l’incarnato e completare la base viso. Scegli la tonalità desiderata.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2023/04/Fondotinta-lasting-cover-800x800.jpg", color:"sand", variants:["201","202","203"], variantColors:{"201":"#edc9a9","202":"#d9aa8b","203":"#b98255"},price:6.00},
-  {id:"p32", category:"Viso", name:"Illuminante Pleasure", detail:"L’illuminante Pleasure è una crema multitasking: puoi utilizzarlo da solo dopo la crema idratante, picchiettandone una piccola quantità sulle zone più sporgenti del viso; usarlo come base trucco per un effetto luminoso all-over oppure mixarlo con la tua base viso preferita per un risultato più luminoso.", image:'assets/images/immagine-25.jpg', imageLabel:"Foto scheda prodotto", color:"blush", variants:["Pearl Glow","Champagne","Rose","Ice"], variantColors:{"Pearl Glow":"#f5d9d9","Champagne":"#e8c3a1","Rose":"#df9a9d","Ice":"#e5e0df"},price:6.00},
-  {id:"p33", category:"Mani e unghie", name:"Nail Wipe 1lt 3 in 1", detail:"Nail Wipe 1lt 3 in 1, prodotto dedicato alla manicure e alla cura delle unghie. Segui le istruzioni riportate sulla confezione.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2022/07/nail-wipe-3-in-1.png", color:"cream",price:4.00},
-  {id:"p34", category:"Labbra", name:"Rossetto super opaco Matt MU Make Up", detail:"Rossetto super opaco per completare il make-up delle labbra con un finish matt. Scegli il numero della tonalità desiderata.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/Rossetto-Super-Opaco-Copertina.jpg", color:"blush", variants:["101","102","103","104","105","106","107","108","109","110","111","112","113","114","115"], variantColors:{"101":"#d8b39b","102":"#c99a80","103":"#b97d69","104":"#a85d55","105":"#d99a9c","106":"#c97882","107":"#b85c6b","108":"#a94356","109":"#963849","110":"#7e293f","111":"#6b263b","112":"#c94a45","113":"#b8323d","114":"#9f3038","115":"#722536"},price:5.00},
-  {id:"p35", category:"Labbra", name:"Rossetto metallizzato satin mu make up", detail:"Rossetto metallizzato satin dalla texture cremosa e dal finish luminoso. Scegli il codice della tonalità desiderata tra 181 e 190.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/Rossetto-stick-metallico-copertina-scaled-1-800x800.jpg", gallery:[{label:"Rossetto",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/Rossetto-stick-metallico-copertina-scaled-1-800x800.jpg"},{label:"Tabella colori e codici 181–190",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/rossetto-metallico-800x506.jpeg"}], color:"cream", variants:["181","182","183","184","185","186","187","188","189","190"], variantColors:{"181":"#56508f","183":"#b66b3d","184":"#d9c5ed","185":"#e9edf2","186":"#c98fb8","188":"#a51d62","189":"#ec238b","190":"#b77b91"},price:5.00},
-  {id:"p36", category:"Occhi", name:"Matita occhi MU Make Up", detail:"Matita occhi per definire lo sguardo e completare il make-up. Scegli il codice della tonalità che preferisci tra quelli disponibili.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/matite-occhi-800x554.jpg", color:"sage", variants:["01","02","03","04","05","06","07","08","09","10","15","16","17","18","19","20","21","Bianca"], gallery:[{label:"Matite occhi MU Make Up",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/matite-occhi-800x554.jpg"},{label:"Matite occhi nere",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/matite-occhi-nere.jpg"},{label:"Matite occhi colorate",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/matite-occhi-color.jpg"},{label:"Matite occhi nuove",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/matite-occhi-nuove.-800x1070.jpg"}],price:4.00},
-
-  {id:"p37", category:"Occhi", name:"Palette Ombretti 4 Colori Glitter & Shimmer", detail:"Palette occhi compatta e circolare con quattro sfumature coordinate dal finish ultra-brillante, shimmer e glitterato. La collezione comprende otto combinazioni cromatiche: 01 blu e argento; 02 champagne, viola, magenta e pesca; 03 oro e bronzo; 04 argento, blu, ciclamino e lavanda; 05 ghiaccio, verde acqua, verde smeraldo e rosa pesca; 06 ghiaccio, lilla, rosa antico e glicine; 07 azzurro polvere, salvia, lime e menta; 08 scala dei grigi e argento. Seleziona il codice della palette desiderata.", image:"assets/images/immagine-26.jpg", imageLabel:"Palette Ombretti 4 Colori Glitter & Shimmer", gallery:[{label:"Palette Ombretti 4 Colori Glitter & Shimmer",image:"assets/images/immagine-27.jpg"}], color:"cream", variants:["01","02","03","04","05","06","07","08"], variantColors:{"01":"linear-gradient(135deg,#e8e8ed 0%,#244b9b 34%,#6fc5dc 68%,#4a4a55 100%)","02":"linear-gradient(135deg,#f0d9a5 0%,#8050a0 35%,#d92d8c 68%,#e7b99b 100%)","03":"linear-gradient(135deg,#f3d27a 0%,#e1a91f 35%,#bd8750 68%,#75513e 100%)","04":"linear-gradient(135deg,#c9cbd8 0%,#315fba 35%,#c02c9a 68%,#c5a6dc 100%)","05":"linear-gradient(135deg,#edf0f4 0%,#7bd2cb 35%,#62a98a 68%,#e8b4a0 100%)","06":"linear-gradient(135deg,#f0edf0 0%,#a987d2 35%,#b77a91 68%,#c7b1e5 100%)","07":"linear-gradient(135deg,#9fb9d0 0%,#879b76 35%,#a4cf42 68%,#8ad7d0 100%)","08":"linear-gradient(135deg,#f1f1f1 0%,#bfc3ca 35%,#777d88 68%,#34363d 100%)"},price:8.00},
-  {id:"p38", category:"Occhi", name:"Palette Ombretti Matt e Shine", detail:"Palette occhi composta da 16 ombretti, disponibile in due varianti. Matt: armonia di 16 ombretti dai toni caldi con finish opaco. Shine: 16 ombretti altamente pigmentati con finish luminoso, con colori che spaziano dai blu al turchese, dai rosa al sabbia dorata. Seleziona Matt oppure Shine.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Palette-Ombretti-matt-800x1066.jpg", imageLabel:"Foto ufficiale MU – palette Matt", gallery:[{label:"Palette Matt",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Palette-Ombretti-matt-800x1066.jpg"},{label:"Palette Shine",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2025/02/Palette-Ombretti-shine-800x1066.jpg"}], color:"cream", variants:["Matt","Shine"], variantColors:{"Matt":"linear-gradient(135deg,#d5b38c 0%,#a77b58 45%,#674b3d 100%)","Shine":"linear-gradient(135deg,#315d9b 0%,#36a8ba 35%,#d78aaf 70%,#d9bd8b 100%)"},price:13.00},
-  {id:"p39", category:"Occhi", name:"Libro palette 72 ombretti", detail:"Palette occhi in formato libro con 72 ombretti. Seleziona la palette completa da 72 colori.", image:"assets/images/immagine-28.jpg", imageLabel:"Libro palette 72 ombretti", gallery:[{label:"Libro palette 72 ombretti aperto con i 72 ombretti",image:"assets/images/immagine-29.jpg"},{label:"Libro palette 72 ombretti chiuso",image:"assets/images/immagine-30.jpg"}], color:"cream", variants:["Palette completa – 72 ombretti"],price:10.00},
-  {id:"p40", category:"Occhi", name:"Ombretto in crema MU Make Up", detail:"Ombretto in crema facile da stendere, con finish impermeabile e una resa intensa. MU consiglia di applicare prima una base per ombretti e poi distribuire una piccola quantità di prodotto con il polpastrello. Seleziona il codice colore 01, 02 oppure 03.", image:"assets/images/immagine-31.jpg", gallery:[{label:"Ombretto in crema MU Make Up – colori 01, 02 e 03",image:"assets/images/immagine-32.jpg"}], color:"cream", variants:["01","02","03"],price:4.00},
-  {id:"p41", category:"Occhi", name:"Ombretto liquido all’acqua MU Make Up", detail:"Ombretto dalla texture liquida ma cremosa, morbida al tatto, con finish perlato e metallizzato e alta concentrazione di perle. Non necessita di primer. Applicare con l’applicatore a spatola, picchiettare con le dita e attendere l’asciugatura. Seleziona il codice colore.", image:"assets/images/immagine-33.jpg", gallery:[{label:"Ombretto liquido all’acqua MU Make Up – colori 01, 02 e 03",image:"assets/images/immagine-34.jpg"},{label:"Ombretto liquido all’acqua MU Make Up – colori 04–12",image:"assets/images/immagine-35.jpg"},{label:"Ombretto liquido all’acqua MU Make Up – swatch colori 01, 02 e 03",image:"assets/images/immagine-36.jpg"}], color:"cream", variants:["01","02","03","04","05","06","07","08","09","10","11","12"],price:6.00},
-  {id:"p42", category:"Occhi", name:"Ombretto cotto duo due colori perlati MU Make Up", detail:"Ombretto cotto duo MU Make Up Made in Italy. Ogni variante abbina due sfumature coordinate in un’unica cialda. Scegli il codice e il relativo abbinamento: 251 grigio scuro e argento; 252 beige/sabbia e bronzo dorato chiaro; 253 bianco e nero/grigio antracite; 254 prugna/borgogna scuro e rosa antico perlato; 255 marrone caldo e oro/bronzo intenso. Seleziona il pallino corrispondente prima di aggiungere il prodotto al carrello.", image:"assets/images/immagine-37.jpg", imageLabel:"Foto prodotto", color:"cream", variants:["251","252","253","254","255"], variantColors:{"251":"linear-gradient(135deg,#34363b 0%,#73777f 48%,#d5d7dc 100%)","252":"linear-gradient(135deg,#e6d2b4 0%,#b99468 48%,#d8b77d 100%)","253":"linear-gradient(135deg,#f8f7f2 0%,#9a9da2 48%,#25272b 100%)","254":"linear-gradient(135deg,#4c203b 0%,#8d526d 52%,#c99aab 100%)","255":"linear-gradient(135deg,#59351f 0%,#a86b32 48%,#e1b65e 100%)"}, variantLabels:{"251":"Grigio scuro e argento","252":"Beige/sabbia e bronzo dorato chiaro","253":"Bianco e nero / grigio antracite","254":"Prugna/borgogna scuro e rosa antico perlato","255":"Marrone caldo e oro/bronzo intenso"},price:13.50},
-  {id:"p43", category:"Occhi", name:"Ombretto cotto Double Wet & Dry", detail:"Ombretto cotto Double Wet & Dry MINERALIZE EYE SHADOW MU Make Up: tonalità coordinate in un’unica cialda, colori pre-coordinati facili da miscelare, applicazione leggera e finish perlato e brillante. La pagina ufficiale mostra 16 codici selezionabili: 01, 04, 05, 07, 08, 09, 10, 11, 13, 15, 16, 18, 19, 20, 21 e 24. Seleziona il codice desiderato.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2021/01/Ombretto-cotto-double-copertina-800x800.jpg", imageLabel:"Foto ufficiale MU", color:"cream", variants:["01","04","05","07","08","09","10","11","13","15","16","18","19","20","21","24"],price:4.00},
-  {id:"p44", category:"Labbra", name:"Rossetto Push Up Matt MU Make Up", detail:"Rossetto matt MU Make Up in elegante confezione push-up, prodotto in Italia. Disponibile in 47 colori differenti. Seleziona il numero della tonalità desiderata tra 01 e 47.", image:"assets/images/immagine-38.jpg", imageLabel:"Foto ufficiale MU", gallery:[{label:"Foto colori rossetto Push Up Matt – tonalità 08 e gamma colori",image:"assets/images/immagine-39.jpg"},{label:"Rossetto Push Up Matt",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/Rossetto-Push-Up-Matt-Copertina.jpg"},{label:"Foto colori e codici 01–47",image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/ROSSETTI-PUSH-UP-800x1067.jpeg"}], color:"blush", variants:["01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47"], variantColors:{"01":"#bd1201","02":"#dc2e51","03":"#c22c37","04":"#fdfcfb","05":"#b85f5b","06":"#e47f87","07":"#c9686f","08":"#cb5a7a","09":"#faf4f8","10":"#f21a27","11":"#f9f8f8","12":"#fafbf7","13":"#fbf9fc","14":"#fcfcfd","15":"#fdfbf9","16":"#c10207","17":"#9e0c07","18":"#fb7da7","19":"#fcfafd","20":"#fd87a0","21":"#f7648e","22":"#fe85ca","23":"#fb52b0","24":"#fdeafb","25":"#c01a2e","26":"#3f2123","27":"#5c3ca1","28":"#171d3d","29":"#fefefc","30":"#495563","31":"#ffb97b","32":"#ff90b1","33":"#e5a090","34":"#fefdfc","35":"#000000","36":"#6b010e","37":"#ff6ba9","38":"#de3336","39":"#f6f7f2","40":"#f02539","41":"#6b010e","42":"#fd6ba8","43":"#df3537","44":"#f5f7f5","45":"#f3233c","46":"#d51f20","47":"#a90f18"},price:5.00},
-  {id:"p45", category:"Viso", name:"Fondotinta Camouflage", detail:"Fondotinta dalla texture cremosa, formulato per coprire le imperfezioni. Adatto a ogni tipo di pelle, si sfuma facilmente, asciuga rapidamente e offre protezione SPF 30. Seleziona la tonalità: 1 Beige, 2 Biscuit, 3 Creme, 4 Ivoire, 5 Miel oppure 6 Sable.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2022/09/Fondotinta-Camouflage.jpg", imageLabel:"Foto ufficiale MU", color:"sand", variants:["1 beige","2 biscuit","3 creme","4 ivoire","5 miel","6 sable"], variantColors:{"1 beige":"#c99a79","2 biscuit":"#d5a77f","3 creme":"#e5c5a6","4 ivoire":"#f0d8bf","5 miel":"#b98259","6 sable":"#986747"},price:6.00},
-  {id:"p46", category:"Viso", name:"Fondotinta Fluido 8h MU Make Up", detail:"Fondotinta fluido MU Make Up che offre coprenza uniforme e lunga durata. Prodotto in Italia con ingredienti certificati. Seleziona il colore 01, 02, 03 oppure 04.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/09/fondotinta-8h.jpg", imageLabel:"Foto ufficiale MU", color:"sand", variants:["01","02","03","04"], variantColors:{"01":"#f0d5bd","02":"#e3bd9d","03":"#c99776","04":"#9f6e50"},price:6.00},
-  {id:"p47", category:"Viso", name:"Fondotinta NUDE Perfect 16h", detail:"Fondotinta fluido correttore per pelle sensibile, utile per uniformare il colorito e attenuare occhiaie e rossori. Testato su pelle sensibile, senza parabeni e non comedogeno. Seleziona il numero 301, 302 oppure 303.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2021/07/Fondotinta-perfect-nude-n.-301.jpg", imageLabel:"Foto ufficiale MU", color:"sand", variants:["301","302","303"], variantColors:{"301":"#efd2b8","302":"#d7ad8d","303":"#ad7958"},price:6.00},
-  {id:"p48", category:"Viso", name:"Fondotinta Pleasure viso", detail:"Fondotinta e concealer 2 in 1 per viso, occhi e zigomi. Formula leggera e idratante, con copertura elevata e adatta a tutti i tipi di pelle. Confezione da 29 g. Seleziona la tonalità da 01 a 09.", image:"https://www.mumakeup-beautyshop.it/wp-content/uploads/2020/06/WhatsApp-Image-2020-03-01-at-17.07.48-800x800.jpeg", imageLabel:"Foto ufficiale MU", color:"sand", variants:["01","02","03","04","05","06","07","08","09"], variantColors:{"01":"#f1d8c2","02":"#eac8aa","03":"#dfb596","04":"#d2a181","05":"#c58d6e","06":"#b77c5d","07":"#a86d50","08":"#925b43","09":"#784832"},price:9.00},
-  {id:"p49", category:"Viso", name:"Fondotinta Stick MU Make Up", detail:"Fondotinta in stick a lunga durata e coprenza uniforme. La texture cremosa è facilmente sfumabile con pennello o spugnetta blender. Seleziona il colore 01, 02, 03 oppure 04.", image:"assets/images/immagine-40.jpg", imageLabel:"Fondotinta Stick MU Make Up con quattro campioni colore", gallery:[{label:"Fondotinta Stick MU Make Up con quattro campioni colore",image:"assets/images/immagine-41.jpg"},{label:"Campioni delle tonalità 01, 02, 03 e 04 sul braccio",image:"assets/images/immagine-42.jpg"}], color:"sand", variants:["01","02","03","04"], variantColors:{"01":"#f0d5bd","02":"#dfb896","03":"#c28e6c","04":"#956444"},price:5.00}
-];
-let activeFilter = "Tutti";
-let searchTerm = "";
-// Mantiene la tonalità scelta per ogni articolo mentre si naviga nel catalogo.
-const selectedVariants = new Map([["p9","159"],["p10","108"],["p11","107"]]);
-const cart = new Map();
-function shadeMeta(label, productId=""){
-  const value=String(label||"").trim();
-  const t=value.toLocaleLowerCase("it");
-  const productForShade=products.find(p=>p.id===productId);
-  if(productForShade && productForShade.variantColors && productForShade.variantColors[value]) return {label:value,colorName:"Campione colore",hex:productForShade.variantColors[value],verified:false,sourceSample:true};
-  // Colori indicativi ricavati dalle fotografie dei campioni presenti nelle schede.
-  // La resa a schermo può variare rispetto al prodotto reale.
-  const sampleMaps={
-    p9:{"151":"#7b5658","152":"#a36c68","153":"#877581","154":"#c4847a","155":"#d19f91","156":"#d59f96","157":"#af8b7f","158":"#dbb299","159":"#e2a69d","160":"#b5707c","162":"#dca2a5","163":"#d8848c","164":"#d69d90","165":"#e4b0a9"},
-    p10:{"101":"#bd3569","103":"#c23872","104":"#c96b8a","105":"#dc6194","106":"#a92762","108":"#d35b91","111":"#a92a56","112":"#bd403e"},
-    p11:{"101":"#9b8b91","102":"#ce9f8c","103":"#b86b70","104":"#a9565a","105":"#b86b65","106":"#c17c70","107":"#e58d70","108":"#efa898","109":"#e9a0a6","110":"#ea9383","111":"#af676f","112":"#e79186","113":"#d1816e","114":"#ce837a","115":"#d08075","116":"#c64a62","117":"#b85b6b","118":"#c0415e","119":"#a14362","120":"#b16c66","121":"#b1655a"},
-    p6:{"05":"#8d2638","13":"#c66b79","16":"#a54f67","17":"#b52d42","18":"#87334d","29":"#c77b83","30":"#d76f62","31":"#b85d70","50":"#76283b","51":"#96534a"}
-  };
-  const foundationToneMaps={p27:{"103":"#c58d70","102":"#d9aa8b","101":"#edc9a9"},p28:{"201":"#c58d70","202":"#d9aa8b","203":"#edc9a9"}};
-  if(foundationToneMaps[productId] && foundationToneMaps[productId][value]) return {label:value,colorName:"Tonalità "+value,hex:foundationToneMaps[productId][value],verified:true};
-  if(sampleMaps[productId] && sampleMaps[productId][value]) return {label:value,colorName:"Campione "+value,hex:sampleMaps[productId][value],verified:false,sourceSample:true};
-  const eyePencilSamples={"01":"#242321","02":"#171717","03":"#302b2a","04":"#171717","05":"#3a3432","06":"#a87955","07":"#8050a0","08":"#477b55","09":"#73b8d4","10":"#684332","15":"#a87955","16":"#8050a0","17":"#477b55","18":"#73b8d4","19":"#242321","20":"#a98bbd","21":"#f7f5ed","Bianca":"#f7f5ed"};
-  if(productId==="p36" && Object.prototype.hasOwnProperty.call(eyePencilSamples,value)) return {label:value,colorName:"Campione "+value,hex:eyePencilSamples[value],verified:false,sourceSample:true};
-  const muLadySamples={"101":"#d8a18b","102":"#bd765f","103":"#a94f4c","104":"#873c45","105":"#c47b8e","106":"#9c536c","107":"#70434b"};
-  if(productId==="p1" && Object.prototype.hasOwnProperty.call(muLadySamples,value)) return {label:value,colorName:"Campione "+value,hex:muLadySamples[value],verified:false,sourceSample:true};
-  const palette=[
-    {keys:["nude naturale"],name:"Nude naturale",hex:"#c99b7a"},
-    {keys:["rosa cipria"],name:"Rosa cipria",hex:"#e6b7b5"},
-    {keys:["rosa antico"],name:"Rosa antico",hex:"#c7838d"},
-    {keys:["fucsia"],name:"Fucsia",hex:"#d52b83"},
-    {keys:["corallo"],name:"Corallo",hex:"#e87968"},
-    {keys:["rosso classico"],name:"Rosso classico",hex:"#b8323d"},
-    {keys:["bordeaux"],name:"Bordeaux",hex:"#6f243d"},
-    {keys:["marrone cioccolato","chocolate"],name:"Marrone cioccolato",hex:"#684332"},
-    {keys:["white","bianco","bianca","double white"],name:"Bianco",hex:"#f7f5ed"},
-    {keys:["gold","oro","double gold"],name:"Oro",hex:"#c6a04b"},
-    {keys:["red passion","redpassion","blazing red"],name:"Rosso",hex:"#b8323d"},
-    {keys:["mandorla","tiramisù","tiramisu"],name:"Nude caldo",hex:"#bd9277"},
-    {keys:["cappuccino"],name:"Cappuccino",hex:"#9b725d"},
-    {keys:["black","nero","nera","double black"],name:"Nero",hex:"#242321"},
-    {keys:["blu","blue"],name:"Blu",hex:"#315f9c"},
-    {keys:["marrone chiaro"],name:"Marrone chiaro",hex:"#a87955"},
-    {keys:["marrone","brown"],name:"Marrone",hex:"#79513c"},
-    {keys:["fuchsia","absolute fucsia"],name:"Fucsia",hex:"#d52b83"},
-    {keys:["orange","arancio","flamingo orange"],name:"Arancio",hex:"#e88732"},
-    {keys:["red","rosso","rossa"],name:"Rosso",hex:"#b8323d"},
-    {keys:["copper","rame","metallic copper"],name:"Rame",hex:"#b8734f"},
-    {keys:["rose","rosa","flamingo rose"],name:"Rosa",hex:"#d98c9b"},
-    {keys:["viola","lilla"],name:"Viola",hex:"#8050a0"},
-    {keys:["verde"],name:"Verde",hex:"#477b55"},
-    {keys:["celeste"],name:"Celeste",hex:"#73b8d4"},
-    {keys:["carbone","nero intenso","nero kajal","nero glitter","nero soft"],name:"Nero",hex:"#242321"}
-  ];
-  const match=palette.find(item=>item.keys.some(k=>t.includes(k)));
-  const codeOnly=/^\d{2,4}$/.test(value);
-  return match?{label:value,colorName:match.name,hex:match.hex,verified:true}:{label:value,colorName:codeOnly?`Codice ${value}`:value,hex:"#c7c2b7",verified:false,sourceSample:false};
+const CHAT={
+ it:{
+  welcome:"Ciao! 👋 Sono l'assistente automatico RestPoker. Come posso aiutarti?",
+  placeholder:"Scrivi una domanda...",
+  send:"Invia",
+  payment:"Per il pagamento puoi usare le opzioni mostrate nella sezione Bitcoin, tra cui MoonPay e Binance.",
+  player:"Il Player ID deve contenere massimo 7 caratteri e solo lettere e numeri.",
+  order:"Per ordinare: scegli un pacchetto, verifica l'importo Bitcoin, inserisci il Player ID e premi «Conferma Ordine».",
+  time:"Il pagamento deve essere verificato prima dell'accredito. Conserva sempre l'ID della transazione Bitcoin.",
+  unknown:"Posso aiutarti con pagamenti, Player ID, ordini e verifica del pagamento. Prova una delle domande rapide.",
+  quick:["payment","player","order","time"]
+ },
+ en:{
+  welcome:"Hello! 👋 I'm the RestPoker automatic assistant. How can I help?",
+  placeholder:"Write a question...",
+  send:"Send",
+  payment:"For payment, you can use the Bitcoin options shown on the page, including MoonPay and Binance.",
+  player:"The Player ID must contain a maximum of 7 characters and only letters and numbers.",
+  order:"To order: choose a package, check the Bitcoin amount, enter the Player ID and press «Confirm Order».",
+  time:"The payment must be verified before crediting. Always keep your Bitcoin transaction ID.",
+  unknown:"I can help with payments, Player ID, orders and payment verification. Try one of the quick questions.",
+  quick:["payment","player","order","time"]
+ },
+ tr:{
+  welcome:"Merhaba! 👋 Ben RestPoker otomatik asistanıyım. Size nasıl yardımcı olabilirim?",
+  placeholder:"Bir soru yazın...",
+  send:"Gönder",
+  payment:"Ödeme için sayfadaki Bitcoin seçeneklerini, MoonPay ve Binance dahil, kullanabilirsiniz.",
+  player:"Player ID en fazla 7 karakter olmalı ve yalnızca harf ve rakamlardan oluşmalıdır.",
+  order:"Sipariş için paketi seçin, Bitcoin tutarını kontrol edin, Player ID girin ve «Siparişi Onayla» düğmesine basın.",
+  time:"Ödeme hesaba aktarılmadan önce doğrulanmalıdır. Bitcoin işlem ID'nizi saklayın.",
+  unknown:"Ödeme, Player ID, sipariş ve ödeme doğrulama konularında yardımcı olabilirim. Hızlı sorulardan birini deneyin.",
+  quick:["payment","player","order","time"]
+ }
+};
+function chatAdd(text,who="bot"){
+ const box=$("chatMessages"), d=document.createElement("div");
+ d.className="chat-msg "+(who==="user"?"chat-user":"chat-bot");
+ d.textContent=text;
+ box.appendChild(d);box.scrollTop=box.scrollHeight;
 }
-function shadeBadge(label, extraClass="", productId=""){
-  if(!label)return "";
-  const m=shadeMeta(label,productId);
-  const numeric=/^\d{2,4}$/.test(String(label));
-  const product=products.find(p=>p.id===productId);
-  const variantDescription=product&&product.variantLabels&&product.variantLabels[label]?product.variantLabels[label]:"";
-  const note=variantDescription?`Variante ${label}: ${variantDescription}`:(m.verified?`Colore selezionato: ${m.colorName}`:`Tonalità ${m.label} selezionata`);
-  const sub=variantDescription?"Abbinamento colore selezionato":(m.verified?m.label:(m.sourceSample?"Campione indicativo da verificare":(numeric?"Colore da verificare sulla foto dei campioni":"Variante selezionata")));
-  return `<div class="selected-shade ${extraClass}" role="status"><span class="shade-swatch" style="background:${m.hex}" aria-hidden="true"></span><span class="shade-copy"><span>${note}</span><small>${sub}</small></span></div>`;
+function chatAnswer(key){
+ const c=CHAT[lang];
+ const answers={payment:c.payment,player:c.player,order:c.order,time:c.time};
+ chatAdd(answers[key]||c.unknown,"bot");
 }
-const grid = document.getElementById("productGrid");
-const count = document.getElementById("cartCount");
-const drawer = document.getElementById("cartDrawer");
-const backdrop = document.getElementById("backdrop");
-const checkout = document.getElementById("checkoutModal");
-
-function cardVariantPreview(p){ if(p.id==="p23" || p.id==="p34" || p.id==="p42" || !p.variants || !p.variants.length) return "";
-  const selected=selectedVariants.get(p.id);
-  const dots=p.variants.map(v=>{
-    const m=(p.variantColors&&p.variantColors[v])?{hex:p.variantColors[v]}:shadeMeta(v,p.id);
-    const active=selected===v;
-    return `<span class="card-variant-chip ${active?"active":""}" title="${v}"><i class="card-variant-dot" style="background:${m.hex}"></i><b>${v}</b></span>`;
-  }).join("");
-  return `<div class="card-variant-preview"><span class="card-variant-title">Colori / varianti disponibili</span><div class="card-variant-list">${dots}</div></div>`;
+function chatSend(){
+ const input=$("chatInput"), q=input.value.trim();
+ if(!q)return;
+ chatAdd(q,"user");input.value="";
+ const s=q.toLowerCase();
+ let key="";
+ if(/pag|bitcoin|btc|moonpay|binance|buy|acquist|ödeme/.test(s))key="payment";
+ else if(/player|id|giocatore|oyuncu/.test(s))key="player";
+ else if(/ordine|ordinar|order|sipariş/.test(s))key="order";
+ else if(/tempo|quanto|verif|time|süre|doğr/.test(s))key="time";
+ setTimeout(()=>chatAnswer(key),250);
 }
-function renderProducts(){
-  const visible = products.filter(p => (activeFilter === "Tutti" || p.category === activeFilter) && (p.name + " " + p.detail + " " + p.category).toLocaleLowerCase("it").includes(searchTerm.toLocaleLowerCase("it")));
-  document.getElementById("catalogCount").textContent = `${visible.length} ${visible.length === 1 ? "prodotto" : "prodotti"} · prodotti e varianti selezionabili`;
-  grid.innerHTML = visible.length ? visible.map(p=>`<article class="product-card"><button class="product-open" data-detail="${p.id}" aria-label="Apri scheda ${p.name}"><div class="product-visual ${p.color}">${p.image ? `<img class="product-photo" src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.remove();this.parentElement.classList.add('photo-fallback');this.parentElement.insertAdjacentHTML('beforeend','<div class=\'product-symbol\' aria-hidden=\'true\'>✦</div>')">` : `<div class="no-photo">Immagine prodotto<br><span>non disponibile</span></div>`}</div><div class="product-price-under-photo">${Number.isFinite(Number(p.price)) && p.price!==null && p.price!=="" ? euro(Number(p.price)) : "Prezzo da verificare"}</div><div class="product-info"><span class="demo-label">${p.imageLabel || (p.image ? "Foto prodotto" : "Immagine da aggiornare")}</span><h3>${p.name}</h3><p class="official-description"><strong>Descrizione</strong><br>${p.detail}</p><span class="detail-link">Apri scheda e scegli la tonalità <b aria-hidden="true">↗</b></span></div></button></article>`).join("") : '<div class="product-empty">Nessun prodotto trovato. Prova un altro termine o categoria.</div>';
+function applyChat(){
+ const c=CHAT[lang];
+ if(!$("chatMessages"))return;
+ $("chatInput").placeholder=c.placeholder;
+ $("chatSend").textContent=c.send;
+ if(!$("chatMessages").dataset.started){
+   chatAdd(c.welcome,"bot");
+   $("chatMessages").dataset.started="1";
+ }
 }
-
-document.getElementById("productSearch").addEventListener("input", e => { searchTerm = e.target.value.trim(); renderProducts(); });
-document.getElementById("productFilters").addEventListener("click", e => { const b=e.target.closest("[data-filter]"); if(!b)return; activeFilter=b.dataset.filter; document.querySelectorAll(".filter-chip").forEach(x=>x.classList.toggle("active",x===b)); renderProducts(); });
-document.querySelectorAll("[data-category-link]").forEach(link => link.addEventListener("click", () => { activeFilter=link.dataset.categoryLink; document.querySelectorAll(".filter-chip").forEach(x=>x.classList.toggle("active",x.dataset.filter===activeFilter)); renderProducts(); }));
-function euro(value){
-  return new Intl.NumberFormat("it-IT",{style:"currency",currency:"EUR"}).format(value);
-}
-function cartAmounts(){
-  const lines=[...cart.values()];
-  const priced=lines.every(item=>Number.isFinite(Number(item.product.price)) && item.product.price!==null && item.product.price!=="" && Number(item.product.price)>=0);
-  const total=priced ? lines.reduce((sum,item)=>sum+(Number(item.product.price)*item.qty),0) : null;
-  return {lines,priced,total};
-}
-function renderCart(){
-  const qty=[...cart.values()].reduce((sum,item)=>sum+item.qty,0);
-  count.textContent=qty;
-  const target=document.getElementById("cartItems");
-  const amounts=cartAmounts();
-  if(!cart.size){target.innerHTML='<p class="empty-cart">Il carrello è ancora vuoto.<br><span>Aggiungi i prodotti che desideri e scegli le varianti disponibili.</span></p>';}
-  else{
-    target.innerHTML=amounts.lines.map(item=>{
-      const hasPrice=Number.isFinite(Number(item.product.price)) && item.product.price!==null && item.product.price!=="" && Number(item.product.price)>=0;
-      const linePrice=hasPrice?euro(Number(item.product.price)*item.qty):"Prezzo da definire";
-      return `<div class="cart-line">${item.product.id==="p35"?`<img class="cart-product-thumb" src="${item.product.gallery?.[1]?.image||item.product.image}" alt="Tabella colori rossetto" loading="lazy">`:""}<div><h3>${item.product.name}</h3><p>${item.product.category}${item.variant?((/^\d{2,4}$/.test(String(item.variant)) || item.product.category==="Labbra")?" · Colore n. ":" · Variante ")+item.variant:""}</p>${item.variant?`<span class="cart-shade"><i class="shade-swatch" style="background:${(item.product.variantColors&&item.product.variantColors[item.variant])||shadeMeta(item.variant,item.product.id).hex}"></i> Colore selezionato · ${item.variant}</span>`:""}<div class="cart-actions"><button class="qty-btn" data-minus="${item.key||item.product.id}" aria-label="Diminuisci quantità">−</button><span>${item.qty}</span><button class="qty-btn" data-plus="${item.key||item.product.id}" aria-label="Aumenta quantità">＋</button><button class="remove-btn" data-remove="${item.key||item.product.id}">Rimuovi</button></div></div><strong>${linePrice}</strong></div>`;
-    }).join("");
-  }
-  document.getElementById("cartTotal").textContent=!cart.size?"—":amounts.priced?euro(amounts.total):"Da definire";
-  const fine=document.querySelector(".cart-bottom .fine-print");
-  if(fine)fine.textContent=!cart.size?"I prezzi saranno disponibili a breve.":amounts.priced?"Totale dei prodotti selezionati, esclusa eventuale spedizione.":"Il totale in euro sarà calcolato automaticamente appena saranno inseriti i prezzi.";
-}
-function renderCheckoutSummary(){
-  const box=document.getElementById("checkoutOrderSummary");
-  if(!cart.size){box.innerHTML="<p>Il carrello è vuoto.</p>";return;}
-  const amounts=cartAmounts();
-  box.innerHTML=`<h3>Riepilogo prodotti</h3>${amounts.lines.map(item=>{
-    const hasPrice=Number.isFinite(Number(item.product.price)) && item.product.price!==null && item.product.price!=="" && Number(item.product.price)>=0;
-    const linePrice=hasPrice?euro(Number(item.product.price)*item.qty):"Prezzo da definire";
-    return `<div class="checkout-summary-line"><span>${item.product.name}${item.variant?` · ${(item.product.id==="p35"||item.product.id==="p6")?"Colore n. ":"Variante "}${item.variant}`:""} (${item.qty} pz.)</span><span>${linePrice}</span></div>`;
-  }).join("")}<div class="checkout-summary-total">${amounts.priced?`Totale spesa: ${euro(amounts.total)}`:"Totale spesa: da definire · prezzi in aggiornamento"}</div>`;
-}
-function openDrawer(){drawer.classList.add("open");drawer.setAttribute("aria-hidden","false");backdrop.hidden=false;document.body.classList.add("no-scroll");}
-function closeDrawer(){drawer.classList.remove("open");drawer.setAttribute("aria-hidden","true");backdrop.hidden=true;document.body.classList.remove("no-scroll");}
-const productModal=document.getElementById("productModal");
-const photoZoom=document.getElementById("photoZoom");
-const photoZoomImage=document.getElementById("photoZoomImage");
-document.getElementById("detailImageWrap").addEventListener("click",e=>{const img=e.target.closest("img");if(!img)return;photoZoomImage.src=img.currentSrc||img.src;photoZoomImage.alt=img.alt||"Foto prodotto ingrandita";photoZoom.classList.add("open");});
-let pinchStartDistance=0, pinchStartScale=1, pinchScale=1;
-function touchDistance(t1,t2){const dx=t2.clientX-t1.clientX,dy=t2.clientY-t1.clientY;return Math.hypot(dx,dy);}
-photoZoomImage.addEventListener("touchstart",e=>{if(e.touches.length===2){e.preventDefault();pinchStartDistance=touchDistance(e.touches[0],e.touches[1]);pinchStartScale=pinchScale;}},{passive:false});
-photoZoomImage.addEventListener("touchmove",e=>{if(e.touches.length===2&&pinchStartDistance>0){e.preventDefault();const ratio=touchDistance(e.touches[0],e.touches[1])/pinchStartDistance;pinchScale=Math.max(1,Math.min(4,pinchStartScale*ratio));photoZoomImage.style.transform=`scale(${pinchScale})`;}},{passive:false});
-photoZoomImage.addEventListener("touchend",e=>{if(e.touches.length<2){pinchStartDistance=0;pinchStartScale=pinchScale;}});
-function closePhotoZoom(){photoZoom.classList.remove("open");photoZoomImage.removeAttribute("src");photoZoomImage.style.transform="scale(1)";pinchScale=1;pinchStartScale=1;pinchStartDistance=0;}
-document.getElementById("closePhotoZoom").addEventListener("click",closePhotoZoom);
-photoZoom.addEventListener("click",e=>{if(e.target===photoZoom)closePhotoZoom();});
-let selectedDetailProduct=null;
-function openProductDetail(p){
-  selectedDetailProduct=p;
-  document.getElementById("detailCategory").textContent=p.category.toLocaleUpperCase("it");
-  document.getElementById("detailName").textContent=p.name;
-  document.getElementById("detailDescription").textContent=p.detail;
-  const lipColorGuide=document.getElementById("lipColorGuide");
-  lipColorGuide.hidden=p.category!=="Labbra";
-  lipColorGuide.innerHTML=p.id==="p35"?"<strong>Tabella colori</strong><br>Apri la seconda immagine per consultare la foto con i codici delle tonalità. Seleziona il numero corrispondente prima di aggiungere il rossetto al carrello.":p.variants&&p.variants.length?"<strong>Colori e varianti disponibili</strong><br>Seleziona il pallino con il colore o il riferimento desiderato. La scelta verrà riportata nel carrello.":"";
-  const variantLabel=document.querySelector('label[for="detailVariants"]');
-  variantLabel.textContent=p.id==="p23"?"Scegli fragranza e colore":(p.category==="Labbra"?"Scegli il colore indicato sulla confezione":"Scegli tonalità");
-  const wrap=document.getElementById("detailImageWrap");
-  const gallery=document.getElementById("detailGallery");
-  const photos=(p.gallery && p.gallery.length)?p.gallery:(p.image?[{label:p.name,image:p.image}]:[]);
-  function showPhoto(photo,index){wrap.innerHTML=photo?`<img src="${photo.image}" alt="${p.name} — ${photo.label||"foto prodotto"}" onerror="this.remove();this.parentElement.innerHTML='<div class=\'no-photo\'>Immagine prodotto<br><span>non disponibile</span></div>'">`:`<div class="no-photo">Immagine prodotto<br><span>non disponibile</span></div>`;gallery.querySelectorAll(".detail-thumb").forEach((b,i)=>b.classList.toggle("active",i===index));}
-  gallery.innerHTML=photos.length>1?photos.map((photo,i)=>`<button class="detail-thumb ${i===0?"active":""}" type="button" data-photo-index="${i}" aria-label="Mostra ${photo.label}"><img src="${photo.image}" alt="${photo.label}" loading="lazy"></button>`).join(""):"";
-  showPhoto(photos[0],0);
-  gallery.onclick=e=>{const b=e.target.closest("[data-photo-index]");if(!b)return;const i=Number(b.dataset.photoIndex);showPhoto(photos[i],i);if(p.gallery&&p.gallery[i]&&p.variants&&p.variants.includes(p.gallery[i].label)){variants.value=p.gallery[i].label;variants.dispatchEvent(new Event("change"));}};
-  const variants=document.getElementById("detailVariants"), variantsWrap=document.getElementById("detailVariantsWrap");
-  variants.innerHTML="";
-  const selectedHint=document.getElementById("detailSelectedShade");
-  function reflectSelectedShade(){
-    const value=(!variantsWrap.hidden && variants.value)?variants.value:"";
-    selectedHint.hidden=!value;
-    selectedHint.innerHTML=value?shadeBadge(value,"",p.id):"";
-    if(value){selectedVariants.set(p.id,value);renderProducts();}
-  }
-  if(p.variants && p.variants.length){if(p.id==="p6"||p.id==="p7"||p.id==="p23"||p.id==="p27"||p.id==="p28"||p.id==="p29"||p.id==="p30"||p.id==="p31"||p.id==="p34"||p.id==="p37"||p.id==="p38"||p.id==="p40"||p.id==="p41"||p.id==="p42"||p.id==="p43"||p.id==="p44"||p.id==="p45"||p.id==="p46"||p.id==="p47"||p.id==="p48"||p.id==="p49"){const placeholder=document.createElement("option");placeholder.value="";placeholder.textContent=p.id==="p23"?"Seleziona la fragranza":(p.id==="p38"?"Seleziona Matt oppure Shine":(p.id==="p39"?"Seleziona la palette":"Seleziona il numero del colore"));placeholder.disabled=true;placeholder.selected=true;variants.appendChild(placeholder);}p.variants.forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;variants.appendChild(o);});
-    const swatchBox=document.getElementById("detailVariantSwatches");
-    swatchBox.innerHTML=p.variants.map(v=>{const m=(p.variantColors&&p.variantColors[v])?{hex:p.variantColors[v]}:shadeMeta(v,p.id);const label=p.variantLabels&&p.variantLabels[v]?p.variantLabels[v]:"";return `<button type="button" class="detail-variant-swatch" data-shade="${v}" aria-pressed="false" aria-label="Seleziona variante ${v}${label?": "+label:""}" title="${label}"><span class="swatch-dot" style="background:${m.hex}"></span><span>${v}${label?` · ${label}`:""}</span></button>`;}).join("");
-    swatchBox.hidden=false;
-    swatchBox.onclick=e=>{const b=e.target.closest("[data-shade]");if(!b)return;variants.value=b.dataset.shade;variants.dispatchEvent(new Event("change"));};
-    variantsWrap.hidden=false;
-    const previous=selectedVariants.get(p.id);
-    if(previous && p.variants.includes(previous)) variants.value=previous;
-    else if(p.id==="p6"||p.id==="p7"||p.id==="p23"||p.id==="p27"||p.id==="p28"||p.id==="p29"||p.id==="p30"||p.id==="p31"||p.id==="p34"||p.id==="p37"||p.id==="p38"||p.id==="p40"||p.id==="p41"||p.id==="p42"||p.id==="p43"||p.id==="p44"||p.id==="p45"||p.id==="p46"||p.id==="p47"||p.id==="p48"||p.id==="p49") variants.value="";
-    else if(photos.length>1 && p.gallery) {const photoMatch=p.gallery.find(ph=>ph.label.toLocaleLowerCase("it")===variants.options[0].value.toLocaleLowerCase("it"));variants.value=photoMatch?photoMatch.label:p.variants[0];}
-    else {variants.value=p.variants[0];}
-    document.getElementById("variantNote").textContent="";
-          }
-  else {variantsWrap.hidden=true;selectedHint.hidden=true;document.getElementById("detailVariantSwatches").hidden=true;document.getElementById("detailVariantSwatches").innerHTML="";document.getElementById("variantNote").textContent="";}
-  variants.onchange=()=>{if(p.gallery&&p.gallery.length){const match=p.gallery.findIndex(photo=>photo.label.toLocaleLowerCase("it")===variants.value.toLocaleLowerCase("it"));if(match>=0)showPhoto(p.gallery[match],match);}document.querySelectorAll("#detailVariantSwatches [data-shade]").forEach(b=>{const active=b.dataset.shade===variants.value;b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));});reflectSelectedShade();};
-  if(!variantsWrap.hidden) variants.dispatchEvent(new Event("change"));
-  productModal.classList.add("open");productModal.setAttribute("aria-hidden","false");document.body.classList.add("no-scroll");
-}
-function closeProductDetail(){productModal.classList.remove("open");productModal.setAttribute("aria-hidden","true");document.body.classList.remove("no-scroll");}
-grid.addEventListener("click",e=>{const b=e.target.closest("[data-detail]");if(!b)return;const p=products.find(x=>x.id===b.dataset.detail);if(p)openProductDetail(p);});
-document.getElementById("closeProduct").addEventListener("click",closeProductDetail);
-productModal.addEventListener("click",e=>{if(e.target===productModal)closeProductDetail();});
-document.getElementById("detailAdd").addEventListener("click",()=>{if(!selectedDetailProduct)return;const p=selectedDetailProduct;const chosen=document.getElementById("detailVariants");const variant=chosen&&!document.getElementById("detailVariantsWrap").hidden?chosen.value:"";if(p.variants&&p.variants.length&&!variant){alert("Seleziona il colore o la variante desiderata prima di aggiungere il prodotto al carrello.");return;}const key=p.id+(variant?"::"+variant:"");const item=cart.get(key)||{product:p,qty:0,variant,key};item.qty++;cart.set(key,item);renderCart();document.getElementById("detailAdd").textContent="Aggiunto ✓";setTimeout(()=>{document.getElementById("detailAdd").textContent="Aggiungi al carrello ＋";},900);});
-document.getElementById("cartItems").addEventListener("click",e=>{const id=e.target.dataset.plus||e.target.dataset.minus||e.target.dataset.remove;if(!id)return;const item=cart.get(id)||[...cart.values()].find(v=>v.product.id===id);if(!item)return;if(e.target.dataset.plus)item.qty++;else if(e.target.dataset.minus)item.qty--;else item.qty=0;if(item.qty<=0)cart.delete(id);renderCart();});
-document.getElementById("openCart").addEventListener("click",openDrawer);
-document.getElementById("closeCart").addEventListener("click",closeDrawer);
-backdrop.addEventListener("click",closeDrawer);
-document.getElementById("goCheckout").addEventListener("click",()=>{if(!cart.size){document.querySelector(".empty-cart").scrollIntoView({block:"nearest"});return;}closeDrawer();renderCheckoutSummary();checkout.classList.add("open");checkout.setAttribute("aria-hidden","false");document.body.classList.add("no-scroll");});
-document.getElementById("closeCheckout").addEventListener("click",()=>{checkout.classList.remove("open");checkout.setAttribute("aria-hidden","true");document.body.classList.remove("no-scroll");});
-checkout.addEventListener("click",e=>{if(e.target===checkout){checkout.classList.remove("open");checkout.setAttribute("aria-hidden","true");document.body.classList.remove("no-scroll");}});
-function escapePreview(value){return String(value??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));}
-const shippingAddressField=document.getElementById("shippingAddressField");
-const shippingAddressInput=document.getElementById("shippingAddress");
-const deliveryHelp=document.getElementById("deliveryHelp");
-function updateDeliveryChoice(){
-  const chosen=document.querySelector('input[name="deliveryMethod"]:checked');
-  const needsShipping=chosen?.value==="Spedizione";
-  shippingAddressField.hidden=!needsShipping;
-  shippingAddressInput.required=needsShipping;
-  if(!needsShipping)shippingAddressInput.value="";
-  deliveryHelp.textContent=needsShipping
-    ?"Hai scelto la spedizione: minimo 5 pezzi, da 8 € fino a 1 kg. Inserisci l'indirizzo completo."
-    :chosen
-      ?"Hai scelto il ritiro a mano."
-      :"Seleziona una delle due modalità per continuare.";
-}
-document.querySelectorAll('input[name="deliveryMethod"]').forEach(input=>input.addEventListener("change",updateDeliveryChoice));
-updateDeliveryChoice();
-document.getElementById("checkoutForm").addEventListener("submit",e=>{
-  e.preventDefault();
-  const form=e.currentTarget;
-  if(!form.reportValidity())return;
-  if(!cart.size){document.getElementById("formResult").textContent="Aggiungi almeno un prodotto prima di preparare il riepilogo.";return;}
-  const data=new FormData(form);
-  const firstName=String(data.get("firstName")||"").trim();
-  const lastName=String(data.get("lastName")||"").trim();
-  const phone=String(data.get("phone")||"").trim();
-  const deliveryMethod=String(data.get("deliveryMethod")||"").trim();
-  const shippingAddress=String(data.get("shippingAddress")||"").trim();
-  const notes=String(data.get("notes")||"").trim();
-  const customer=`${firstName} ${lastName}`.trim();
-  const lines=[...cart.values()];
-  const total=lines.reduce((sum,item)=>sum+item.qty,0);
-  if(deliveryMethod==="Spedizione" && total<5){
-    document.getElementById("formResult").textContent="Per scegliere la spedizione occorrono almeno 5 pezzi. Aggiungi altri prodotti oppure scegli il ritiro a mano.";
-    return;
-  }
-  const preview=document.getElementById("orderPreview");
-  preview.innerHTML=`<h3>Riepilogo ordine dimostrativo</h3><p><strong>Cliente:</strong> ${escapePreview(customer)}</p><p><strong>Telefono:</strong> ${escapePreview(phone)}</p><p><strong>Consegna:</strong> ${escapePreview(deliveryMethod)}</p>${deliveryMethod==="Spedizione"?`<p><strong>Indirizzo:</strong> ${escapePreview(shippingAddress)}</p><p><strong>Spedizione:</strong> minimo 5 pezzi · da 8 € fino a 1 kg</p>`:""}<div class="preview-items">${lines.map(item=>`<div class="preview-item"><span>${escapePreview(item.product.name)}${item.variant?` · ${escapePreview(item.variant)}`:""}</span><strong>${item.qty} pezzi</strong></div>`).join("")}</div><p class="preview-total">Totale complessivo: ${total} pezzi</p>${notes?`<p><strong>Note:</strong> ${escapePreview(notes)}</p>`:""}<p class="preview-note">Anteprima dimostrativa: l'ordine non è stato trasmesso al negozio e non è stato effettuato alcun pagamento.</p><a class="owner-whatsapp-link full-width" href="https://wa.me/393801388962?text=Buongiorno%2C%20desidero%20informazioni%20sul%20mio%20ordine%20Polo%20Engy%20Make%20up." target="_blank" rel="noopener noreferrer">Clicca qui per informazioni su WhatsApp</a><button type="button" class="preview-print" id="printOrderPreview">Stampa riepilogo</button>`;
-  preview.hidden=false;
-  document.getElementById("formResult").textContent=`Riepilogo preparato per ${customer}. Controlla i dati prima di mostrarlo.`;
-  document.getElementById("printOrderPreview").addEventListener("click",()=>window.print());
+document.addEventListener("click",e=>{
+ const b=e.target.closest("[data-q]");
+ if(b)chatAnswer(b.dataset.q);
 });
-renderProducts();renderCart();
+$("chatSend").onclick=chatSend;
+$("chatInput").addEventListener("keydown",e=>{if(e.key==="Enter")chatSend()});
 
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closePhotoZoom();});
-
-// Aggiorna automaticamente l'anno del copyright.
-const copyrightYear = document.getElementById("copyrightYear");
-if (copyrightYear) copyrightYear.textContent = String(new Date().getFullYear());
+function apply(){
+ document.documentElement.lang=lang;$("sub").textContent=tr().sub;$("walletTitle").textContent=tr().wallet;$("copy").textContent=tr().copy;$("partner").textContent=tr().partner;$("idLabel").textContent=tr().label;$("player").placeholder=tr().ph;$("submit").textContent=tr().submit;$("back").textContent=tr().back;$("note").textContent=tr().note;
+ document.querySelectorAll(".click").forEach(x=>x.textContent=tr().click);applyChat();document.querySelectorAll(".lang button").forEach(x=>x.classList.toggle("active",x.dataset.l===lang));
+}
+function status(msg,type){$("status").textContent=msg;$("status").className="status "+type}
+function clearStatus(){$("status").className="status";$("status").textContent=""}
+function openOrder(c){
+ order={pack:c.dataset.pack,price:c.dataset.price,btc:c.dataset.btc};
+ $("product").textContent=order.pack;$("price").textContent=order.price;$("btc").textContent=order.btc;$("wallet").textContent=WALLET;
+ const amount=order.btc.replace(" BTC","").trim();
+ $("qr").src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data="+encodeURIComponent("bitcoin:"+WALLET+"?amount="+amount);
+ $("grid").style.display="none";$("checkout").style.display="block";$("player").value="";clearStatus();$("player").focus();scrollTo({top:0,behavior:"smooth"});
+}
+document.querySelectorAll(".card").forEach(c=>c.addEventListener("click",()=>openOrder(c)));
+document.querySelectorAll(".lang button").forEach(b=>b.addEventListener("click",()=>{lang=b.dataset.l;localStorage.setItem("rp_lang",lang);apply();}));
+$("back").onclick=()=>{$("checkout").style.display="none";$("grid").style.display="grid";clearStatus()};
+$("copy").onclick=async()=>{try{await navigator.clipboard.writeText(WALLET)}catch(e){const x=document.createElement("textarea");x.value=WALLET;document.body.appendChild(x);x.select();document.execCommand("copy");x.remove()}$("copy").textContent=tr().copied;setTimeout(()=>$("copy").textContent=tr().copy,1600)};
+$("submit").onclick=async()=>{
+ const player=$("player").value.trim();
+ if(!/^[a-zA-Z0-9]{1,7}$/.test(player)){status(tr().bad,"error");return}
+ $("submit").disabled=true;status(tr().sending,"success");
+ try{
+   const res=await fetch(API_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({package:order.pack.replace(/[()]/g,""),price:order.price.replace("USD ",""),btc:order.btc.replace(" BTC",""),playerId:player,wallet:WALLET,language:lang})});
+   const data=await res.json().catch(()=>({}));
+   if(!res.ok||!data.ok)throw new Error(data.error||"API error");
+   status(tr().ok,"success");
+ }catch(e){
+   status(tr().fail,"error");
+ }finally{$("submit").disabled=false}
+};
+apply();
 </script>
 </body>
 </html>
